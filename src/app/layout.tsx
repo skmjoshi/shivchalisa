@@ -25,31 +25,50 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://shivchalisa.org" },
 };
 
+const GA_ID = process.env.NEXT_PUBLIC_GA_ID ?? “”;
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" data-scroll-behavior="smooth">
+    <html lang=”en” data-scroll-behavior=”smooth”>
       <head>
-        {/* WebSite schema â€” enables Google sitelinks search box */}
+        {/* WebSite schema — enables Google sitelinks search box */}
         <script
-          type="application/ld+json"
+          type=”application/ld+json”
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "WebSite",
-              name: "BhaktiSagar",
-              url: "https://shivchalisa.org/",
+              “@context”: “https://schema.org”,
+              “@type”: “WebSite”,
+              name: “BhaktiSagar”,
+              url: “https://shivchalisa.org/”,
               potentialAction: {
-                "@type": "SearchAction",
-                target: "https://shivchalisa.org/search?q={search_term_string}",
-                "query-input": "required name=search_term_string",
+                “@type”: “SearchAction”,
+                target: “https://shivchalisa.org/search?q={search_term_string}”,
+                “query-input”: “required name=search_term_string”,
               },
             }),
           }}
         />
+
+        {/* Google Analytics 4 */}
+        {GA_ID && (
+          <>
+            <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} />
+            <script
+              dangerouslySetInnerHTML={{
+                __html: `
+                  window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+                  gtag('config', '${GA_ID}', { page_path: window.location.pathname });
+                `,
+              }}
+            />
+          </>
+        )}
       </head>
-      <body className="min-h-screen flex flex-col">
+      <body className=”min-h-screen flex flex-col”>
         <Header />
-        <main className="flex-1">{children}</main>
+        <main className=”flex-1”>{children}</main>
         <Footer />
       </body>
     </html>
