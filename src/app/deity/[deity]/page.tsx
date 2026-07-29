@@ -111,7 +111,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return {
     title: { absolute: `${meta?.title ?? label} | BhaktiSagar` },
-    description: meta?.desc ?? `All ${label} devotional texts with lyrics, meaning and audio.`,
+    description: meta?.desc ?? `All ${label} devotional texts with lyrics and meaning.`,
     alternates: { canonical: `https://shivchalisa.org/deity/${deity}` },
     openGraph: {
       title: `${label} – Chalisa, Aarti, Stotra & Mantra | BhaktiSagar`,

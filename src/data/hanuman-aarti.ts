@@ -6,7 +6,7 @@ const hanumanAarti: ContentItem = {
   deity: "hanuman",
   title: { hindi: "आरती कीजे हनुमान लला की – हनुमान आरती", english: "Hanuman Aarti – Aarti Kije Hanuman Lala Ki" },
   metaTitle: "Hanuman Aarti – आरती कीजे हनुमान लला की Lyrics in Hindi & English | BhaktiSagar",
-  metaDescription: "Read Hanuman Aarti (आरती कीजे हनुमान लला की) full lyrics in Hindi and English with meaning. The most popular Bajrangbali Aarti for courage and protection. Audio & PDF available.",
+  metaDescription: "Read Hanuman Aarti (आरती कीजे हनुमान लला की) full lyrics in Hindi and English with meaning. The most popular Bajrangbali Aarti for courage and protection.",
   keywords: ["hanuman aarti","aarti kije hanuman lala ki","hanuman aarti lyrics","हनुमान आरती","bajrangbali aarti","hanuman aarti in hindi","hanuman aarti meaning"],
   intro: "Hanuman Aarti — 'आरती कीजे हनुमान लला की' — is the most beloved prayer sung in honour of Lord Hanuman, the mighty son of the Wind. Performed after reciting the Hanuman Chalisa, this aarti fills the devotee with courage, devotion and Lord Hanuman's protective blessings.",
   benefits: [

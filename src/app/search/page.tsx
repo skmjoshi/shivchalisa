@@ -100,7 +100,7 @@ export default function SearchPage() {
             Search all devotional texts
           </p>
           <p className="text-sm" style={{ color: "var(--muted)" }}>
-            Find Chalisa, Aarti, Stotra, Mantra and more with lyrics, meaning and audio.
+            Find Chalisa, Aarti, Stotra, Mantra and more with lyrics and meaning.
           </p>
           <div className="flex flex-wrap justify-center gap-2 mt-6 max-w-lg mx-auto">
             {[

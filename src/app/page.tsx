@@ -5,14 +5,14 @@ import ContentCard from "@/components/ContentCard";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Shiv Chalisa, Hanuman Chalisa & Aarti – Lyrics, Meaning & Audio | BhaktiSagar",
+    absolute: "Shiv Chalisa, Hanuman Chalisa & Aarti – Lyrics & Meaning | BhaktiSagar",
   },
   description:
-    "Read & listen to Shiv Chalisa, Hanuman Chalisa, Durga Aarti and 1000+ Hindu devotional texts with lyrics, meaning & audio in Hindi, English & Sanskrit.",
+    "Read Shiv Chalisa, Hanuman Chalisa, Durga Aarti and other Hindu devotional texts with lyrics and meaning in Hindi, English & Sanskrit.",
   alternates: { canonical: "https://shivchalisa.org" },
   openGraph: {
-    title: "Shiv Chalisa, Hanuman Chalisa & Aarti – Lyrics, Meaning & Audio",
-    description: "Read & listen to Shiv Chalisa, Hanuman Chalisa, Durga Aarti and 1000+ Hindu devotional texts with lyrics, meaning & audio in Hindi, English & Sanskrit.",
+    title: "Shiv Chalisa, Hanuman Chalisa & Aarti – Lyrics & Meaning",
+    description: "Read Shiv Chalisa, Hanuman Chalisa, Durga Aarti and other Hindu devotional texts with lyrics and meaning in Hindi, English & Sanskrit.",
     images: [
       {
         url: "/og-image.svg",
@@ -72,11 +72,11 @@ export default function HomePage() {
           }}
         >
           🕉️ Shiv Chalisa, Hanuman Chalisa & Aarti
-          <br className="hidden sm:block" /> — Lyrics, Meaning & Audio
+          <br className="hidden sm:block" /> — Lyrics & Meaning
         </h1>
         <p className="text-base md:text-lg max-w-xl mx-auto mb-6" style={{ color: "var(--muted)" }}>
           Chalisa · Aarti · Stotra · Mantra in Hindi, English &amp; Sanskrit
-          with word-by-word meaning and audio
+          with word-by-word meaning
         </p>
 
         {/* Popular search chips */}
@@ -178,7 +178,7 @@ export default function HomePage() {
           {[
             { icon: "📖", label: "Full Lyrics",   desc: "Hindi · English · Sanskrit" },
             { icon: "💡", label: "Meaning",        desc: "Verse-by-verse explanation" },
-            { icon: "🔊", label: "Audio",          desc: "Listen while you read" },
+            { icon: "🙏", label: "Benefits & FAQ",  desc: "How to chant & why it matters" },
             { icon: "📱", label: "Mobile-first",   desc: "Perfect on any device" },
           ].map((f) => (
             <div key={f.label} className="flex flex-col items-center gap-2">

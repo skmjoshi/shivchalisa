@@ -6,7 +6,7 @@ const durgaAarti: ContentItem = {
   deity: "durga",
   title: { hindi: "जय अम्बे गौरी – दुर्गा आरती", english: "Durga Aarti – Jai Ambe Gauri" },
   metaTitle: "Durga Aarti – जय अम्बे गौरी Lyrics in Hindi & English with Meaning | BhaktiSagar",
-  metaDescription: "Read Durga Aarti (जय अम्बे गौरी) full lyrics in Hindi and English with meaning. The most popular Maa Durga Aarti sung during Navratri and daily puja. Audio & PDF available.",
+  metaDescription: "Read Durga Aarti (जय अम्बे गौरी) full lyrics in Hindi and English with meaning. The most popular Maa Durga Aarti sung during Navratri and daily puja.",
   keywords: ["durga aarti","jai ambe gauri","durga aarti lyrics","दुर्गा आरती","maa durga aarti","jai ambe gauri lyrics","durga aarti in hindi","navratri aarti"],
   intro: "Durga Aarti — 'जय अम्बे गौरी' — is the most beloved prayer sung in honour of Goddess Durga. Performed at the culmination of every Durga puja, this aarti is especially resounding during the nine nights of Navratri when millions of devotees sing it in unison.",
   benefits: [

@@ -58,13 +58,14 @@ export default async function ContentRoute({ params }: Props) {
   if (!item || item.category !== category) notFound();
 
   const related = getRelated(item);
+  const hasSanskrit = item.verses.some((v) => v.sanskrit);
 
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline:      item.metaTitle,
     description:   item.metaDescription,
-    inLanguage:    ["hi", "en", "sa"],
+    inLanguage:    hasSanskrit ? ["hi", "en", "sa"] : ["hi", "en"],
     author:    { "@type": "Organization", name: "BhaktiSagar" },
     publisher: { "@type": "Organization", name: "BhaktiSagar", url: "https://shivchalisa.org" },
     datePublished: "2026-06-01",

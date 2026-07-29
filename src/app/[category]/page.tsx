@@ -70,14 +70,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const label = CATEGORY_LABELS[category as Category];
   const meta  = CATEGORY_META[category];
   const items = getByCategory(category);
+  const hasSanskrit = items.some((i) => i.verses.some((v) => v.sanskrit));
+  const langs = hasSanskrit ? "Hindi, English & Sanskrit" : "Hindi & English";
 
   return {
-    title: { absolute: `${label} – All ${label}s with Lyrics, Meaning & Audio | BhaktiSagar` },
-    description: `Read all ${label}s — ${meta?.desc ?? ""}. Full lyrics in Hindi, English & Sanskrit with meaning and audio. ${items.length} ${label}s available.`,
+    title: { absolute: `${label} – All ${label}s with Lyrics & Meaning | BhaktiSagar` },
+    description: `Read all ${label}s — ${meta?.desc ?? ""}. Full lyrics in ${langs} with meaning. ${items.length} ${label}s available.`,
     alternates: { canonical: `https://shivchalisa.org/${category}` },
     openGraph: {
-      title: `${label} – All ${label}s with Lyrics, Meaning & Audio | BhaktiSagar`,
-      description: `Read all ${label}s — ${meta?.desc ?? ""}. Full lyrics in Hindi, English & Sanskrit with meaning and audio.`,
+      title: `${label} – All ${label}s with Lyrics & Meaning | BhaktiSagar`,
+      description: `Read all ${label}s — ${meta?.desc ?? ""}. Full lyrics in ${langs} with meaning.`,
       images: [
         {
           url: "/og-image.svg",

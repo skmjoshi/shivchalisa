@@ -81,8 +81,12 @@ export default function ContentCard({ item, showDeity = true }: Props) {
       {/* Footer chips */}
       <div className="flex items-center gap-2 mt-auto pt-2"
            style={{ borderTop: "1px solid var(--line)" }}>
-        <span className="text-xs" style={{ color: "var(--muted)" }}>🔊 Audio</span>
-        <span className="text-xs" style={{ color: "var(--muted)" }}>📄 PDF</span>
+        {item.audioUrl && (
+          <span className="text-xs" style={{ color: "var(--muted)" }}>🔊 Audio</span>
+        )}
+        {item.pdfUrl && (
+          <span className="text-xs" style={{ color: "var(--muted)" }}>📄 PDF</span>
+        )}
         <span
           className="ml-auto text-xs font-semibold"
           style={{ color }}

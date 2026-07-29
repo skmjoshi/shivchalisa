@@ -9,7 +9,7 @@ interface Props {
   related: ContentItem[];
 }
 
-const LANG_OPTIONS: { key: Lang; label: string }[] = [
+const ALL_LANG_OPTIONS: { key: Lang; label: string }[] = [
   { key: "hindi",    label: "हिंदी"   },
   { key: "english",  label: "English"  },
   { key: "sanskrit", label: "Sanskrit" },
@@ -18,6 +18,9 @@ const LANG_OPTIONS: { key: Lang; label: string }[] = [
 export default function ContentPage({ item, related }: Props) {
   const [lang, setLang]           = useState<Lang>("hindi");
   const [showMeaning, setMeaning] = useState(true);
+
+  const hasSanskrit = item.verses.some((v) => v.sanskrit);
+  const LANG_OPTIONS = ALL_LANG_OPTIONS.filter((o) => o.key !== "sanskrit" || hasSanskrit);
 
   return (
     <article className="max-w-2xl mx-auto px-4 py-6 animate-fade-in">
@@ -47,8 +50,8 @@ export default function ContentPage({ item, related }: Props) {
       <div className="flex flex-wrap gap-2 my-4">
         <span className="chip">{item.category.charAt(0).toUpperCase() + item.category.slice(1)}</span>
         <span className="chip capitalize">{item.deity}</span>
-        <span className="chip">🔊 Audio</span>
-        <span className="chip">📄 PDF</span>
+        {item.audioUrl && <span className="chip">🔊 Audio</span>}
+        {item.pdfUrl && <span className="chip">📄 PDF</span>}
         {item.bestTime && <span className="chip">🕐 {item.bestTime}</span>}
       </div>
 
@@ -58,7 +61,9 @@ export default function ContentPage({ item, related }: Props) {
       </p>
 
       {/* ── Audio player ───────────────────────────────────── */}
-      <AudioPlayer title={item.title.english} audioUrl={item.audioUrl} />
+      {item.audioUrl && (
+        <AudioPlayer title={item.title.english} audioUrl={item.audioUrl} />
+      )}
 
       {/* ── Language + meaning toggles ─────────────────────── */}
       <div className="flex flex-wrap items-center gap-2 mb-6">

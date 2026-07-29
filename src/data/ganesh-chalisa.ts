@@ -11,7 +11,7 @@ const ganeshChalisa: ContentItem = {
   metaTitle:
     "Ganesh Chalisa – श्री गणेश चालीसा Lyrics in Hindi & English with Meaning | BhaktiSagar",
   metaDescription:
-    "Read Ganesh Chalisa (गणेश चालीसा) full lyrics in Hindi and English with meaning. Recite before any new work to invoke Lord Ganesha's blessings. Audio & PDF available.",
+    "Read Ganesh Chalisa (गणेश चालीसा) lyrics in Hindi and English with meaning. Recite before any new work to invoke Lord Ganesha's blessings.",
   keywords: [
     "ganesh chalisa",
     "ganesh chalisa lyrics",
@@ -22,7 +22,7 @@ const ganeshChalisa: ContentItem = {
     "ganesh chalisa pdf",
   ],
   intro:
-    "Ganesh Chalisa (श्री गणेश चालीसा) is a 40-verse hymn in praise of Lord Ganesha — the elephant-headed remover of obstacles and the deity of beginnings. Before starting any auspicious activity, reciting Ganesh Chalisa is considered essential in Hindu tradition.",
+    "Ganesh Chalisa (श्री गणेश चालीसा) is a devotional hymn in praise of Lord Ganesha — the elephant-headed remover of obstacles and the deity of beginnings. Before starting any auspicious activity, reciting Ganesh Chalisa is considered essential in Hindu tradition.",
   benefits: [
     "Removes obstacles from all new beginnings.",
     "Invokes Lord Ganesha's blessings before any important task.",

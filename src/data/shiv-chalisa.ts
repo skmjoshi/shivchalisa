@@ -9,9 +9,9 @@ const shivChalisa: ContentItem = {
     english: "Shiv Chalisa",
   },
   metaTitle:
-    "Shiv Chalisa – श्री शिव चालीसा Lyrics in Hindi, English & Sanskrit with Meaning | BhaktiSagar",
+    "Shiv Chalisa – श्री शिव चालीसा Lyrics in Hindi & English with Meaning | BhaktiSagar",
   metaDescription:
-    "Read and listen to Shiv Chalisa (शिव चालीसा) – full 40 verses in Hindi, English and Sanskrit with word-by-word meaning, benefits, and PDF. ॐ नमः शिवाय।",
+    "Read Shiv Chalisa (शिव चालीसा) – full 40 verses in Hindi and English with word-by-word meaning and benefits. ॐ नमः शिवाय।",
   keywords: [
     "shiv chalisa",
     "shiv chalisa lyrics",

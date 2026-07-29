@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     template: "%s | BhaktiSagar",
   },
   description:
-    "BhaktiSagar - Read & listen to Shiv Chalisa, Hanuman Chalisa, Durga Aarti, Vishnu Sahasranama and 1000+ devotional texts with lyrics, meaning and audio in Hindi, English and Sanskrit.",
+    "BhaktiSagar - Read Shiv Chalisa, Hanuman Chalisa, Durga Aarti and other Hindu devotional texts with lyrics and meaning in Hindi, English and Sanskrit.",
   keywords: [
     "bhaktisagar", "chalisa", "aarti", "stotra", "mantra", "shiv chalisa",
     "hanuman chalisa", "devotional", "bhakti", "hindu prayer", "puja",
@@ -45,10 +45,6 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
   alternates: {
     canonical: "https://shivchalisa.org",
-    languages: {
-      "hi": "https://shivchalisa.org",
-      "en": "https://shivchalisa.org",
-    },
   },
   verification: {
     google: process.env.NEXT_PUBLIC_GSC_VERIFICATION ?? "",
@@ -86,7 +82,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               "@type": "WebSite",
               name: "BhaktiSagar",
               url: "https://shivchalisa.org/",
-              description: "Read & listen to Shiv Chalisa, Hanuman Chalisa, Durga Aarti and 1000+ devotional texts with lyrics, meaning and audio in Hindi, English and Sanskrit.",
+              description: "Read Shiv Chalisa, Hanuman Chalisa, Durga Aarti and other Hindu devotional texts with lyrics and meaning in Hindi, English and Sanskrit.",
               potentialAction: {
                 "@type": "SearchAction",
                 target: "https://shivchalisa.org/search?q={search_term_string}",
@@ -107,7 +103,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               name: "BhaktiSagar",
               url: "https://shivchalisa.org",
               logo: "https://shivchalisa.org/favicon.svg",
-              description: "BhaktiSagar - Read & listen to Shiv Chalisa, Hanuman Chalisa, Durga Aarti and 1000+ devotional texts with lyrics, meaning and audio in Hindi, English and Sanskrit.",
+              description: "BhaktiSagar - Read Shiv Chalisa, Hanuman Chalisa, Durga Aarti and other Hindu devotional texts with lyrics and meaning in Hindi, English and Sanskrit.",
               sameAs: [],
               contactPoint: {
                 "@type": "ContactPoint",

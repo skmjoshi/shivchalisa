@@ -6,9 +6,9 @@ const durgaChalisa: ContentItem = {
   deity: "durga",
   title: { hindi: "श्री दुर्गा चालीसा", english: "Durga Chalisa" },
   metaTitle: "Durga Chalisa – श्री दुर्गा चालीसा Lyrics in Hindi & English with Meaning | BhaktiSagar",
-  metaDescription: "Read Durga Chalisa (दुर्गा चालीसा) full 40 verses in Hindi and English with meaning, benefits and audio. Invoke Maa Durga's blessings for strength and protection.",
+  metaDescription: "Read Durga Chalisa (दुर्गा चालीसा) in Hindi and English with meaning and benefits. Invoke Maa Durga's blessings for strength and protection.",
   keywords: ["durga chalisa","durga chalisa lyrics","durga chalisa in hindi","दुर्गा चालीसा","maa durga chalisa","durga chalisa meaning","durga chalisa pdf","durga chalisa audio"],
-  intro: "Durga Chalisa (श्री दुर्गा चालीसा) is a 40-verse devotional hymn in praise of Goddess Durga — the invincible mother who embodies Shakti, the supreme cosmic energy. Reciting Durga Chalisa fills the devotee with courage, destroys obstacles, and invokes the protective grace of Maa Durga.",
+  intro: "Durga Chalisa (श्री दुर्गा चालीसा) is a devotional hymn in praise of Goddess Durga — the invincible mother who embodies Shakti, the supreme cosmic energy. Reciting Durga Chalisa fills the devotee with courage, destroys obstacles, and invokes the protective grace of Maa Durga.",
   benefits: [
     "Invokes Maa Durga's protection against all evil and danger.",
     "Fills the heart with courage and fearlessness.",
