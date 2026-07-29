@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Browse all devotional texts by deity — Shiv Chalisa, Hanuman Chalisa, Ganesh Aarti, Durga Stotra and more.",
     images: [
       {
-        url: "/og-image.svg",
+        url: "/og-image.png",
         width: 1200,
         height: 630,
         alt: "Browse by Deity - BhaktiSagar",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   },
 };
 
-const DEITIES: { slug: Deity; icon: string; color: string }[] = [
+const ALL_DEITIES: { slug: Deity; icon: string; color: string }[] = [
   { slug: "shiva",     icon: "🕉️",  color: "#b23a00" },
   { slug: "hanuman",   icon: "🐒",  color: "#c25000" },
   { slug: "ganesha",   icon: "🐘",  color: "#9c3a00" },
@@ -35,6 +35,10 @@ const DEITIES: { slug: Deity; icon: string; color: string }[] = [
   { slug: "shani",     icon: "🪐",  color: "#2a2a4a" },
   { slug: "sai-baba",  icon: "🙏",  color: "#4a3a00" },
 ];
+
+// Only surface deities that actually have content — empty "coming soon"
+// hubs are worthless to readers and to quality raters.
+const DEITIES = ALL_DEITIES.filter((d) => getByDeity(d.slug).length > 0);
 
 export default function DeityIndexPage() {
   return (

@@ -60,7 +60,8 @@ const CATEGORY_META: Record<string, { icon: string; desc: string; longDesc: stri
 const VALID_CATEGORIES = Object.keys(CATEGORY_LABELS) as Category[];
 
 export async function generateStaticParams() {
-  return VALID_CATEGORIES.map((cat) => ({ category: cat }));
+  // Only build category hubs that have content — see deity hubs for rationale.
+  return VALID_CATEGORIES.filter((cat) => getByCategory(cat).length > 0).map((cat) => ({ category: cat }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -82,7 +83,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: `Read all ${label}s — ${meta?.desc ?? ""}. Full lyrics in ${langs} with meaning.`,
       images: [
         {
-          url: "/og-image.svg",
+          url: "/og-image.png",
           width: 1200,
           height: 630,
           alt: `${label} Collection - BhaktiSagar`,

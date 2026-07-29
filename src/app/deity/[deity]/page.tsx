@@ -98,7 +98,9 @@ const DEITY_META: Record<string, {
 const VALID_DEITIES = Object.keys(DEITY_LABELS) as Deity[];
 
 export async function generateStaticParams() {
-  return VALID_DEITIES.map((deity) => ({ deity }));
+  // Only build hubs that have content — an empty "coming soon" page is worthless
+  // to readers and dilutes site quality. Hubs reappear automatically as content lands.
+  return VALID_DEITIES.filter((deity) => getByDeity(deity).length > 0).map((deity) => ({ deity }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -118,7 +120,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: meta?.desc,
       images: [
         {
-          url: "/og-image.svg",
+          url: "/og-image.png",
           width: 1200,
           height: 630,
           alt: `${label} - Devotional Texts on BhaktiSagar`,

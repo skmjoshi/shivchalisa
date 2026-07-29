@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ALL_CONTENT } from "@/data";
+import { ALL_CONTENT, getByCategory, getByDeity } from "@/data";
+import type { Category, Deity } from "@/lib/types";
 import ContentCard from "@/components/ContentCard";
 
 export const metadata: Metadata = {
@@ -15,7 +16,7 @@ export const metadata: Metadata = {
     description: "Read Shiv Chalisa, Hanuman Chalisa, Durga Aarti and other Hindu devotional texts with lyrics and meaning in Hindi, English & Sanskrit.",
     images: [
       {
-        url: "/og-image.svg",
+        url: "/og-image.png",
         width: 1200,
         height: 630,
         alt: "BhaktiSagar - Devotional Texts in Hindi, English & Sanskrit",
@@ -25,7 +26,10 @@ export const metadata: Metadata = {
 };
 
 /* ── Static category data ─────────────────────────────────────── */
-const CATEGORIES = [
+/* Only categories/deities with real content are surfaced — linking an empty
+   "coming soon" hub wastes a reader's click and dilutes site quality. Entries
+   reappear automatically as content is added. */
+const ALL_CATEGORIES = [
   { slug: "chalisa",      icon: "📿", label: "Chalisa",     desc: "40-verse devotional hymns" },
   { slug: "aarti",        icon: "🪔", label: "Aarti",       desc: "Lamp-offering prayers" },
   { slug: "stotra",       icon: "📖", label: "Stotra",      desc: "Sanskrit praise hymns" },
@@ -35,8 +39,9 @@ const CATEGORIES = [
   { slug: "bhajan",       icon: "🎵", label: "Bhajan",      desc: "Devotional songs" },
   { slug: "vrat-katha",   icon: "✨", label: "Vrat Katha",  desc: "Sacred fasting stories" },
 ];
+const CATEGORIES = ALL_CATEGORIES.filter((c) => getByCategory(c.slug as Category).length > 0);
 
-const DEITIES = [
+const ALL_DEITIES = [
   { slug: "shiva",     icon: "🕉️",  label: "Shiva"     },
   { slug: "hanuman",   icon: "🐒",  label: "Hanuman"   },
   { slug: "ganesha",   icon: "🐘",  label: "Ganesha"   },
@@ -48,12 +53,22 @@ const DEITIES = [
   { slug: "saraswati", icon: "🎶",  label: "Saraswati" },
   { slug: "surya",     icon: "☀️",  label: "Surya"     },
 ];
+const DEITIES = ALL_DEITIES.filter((d) => getByDeity(d.slug as Deity).length > 0);
 
-const POPULAR_SEARCHES = [
+/* Only suggest searches that actually return a result. */
+const CANDIDATE_SEARCHES = [
   "Shiv Chalisa", "Shiv Aarti", "Hanuman Chalisa", "Hanuman Aarti",
-  "Ganesh Chalisa", "Durga Aarti", "Gayatri Mantra", "Vishnu Sahasranama",
-  "Mahamrityunjaya Mantra", "Shiv Tandav", "Bajrang Baan", "Om Namah Shivaya",
+  "Ganesh Chalisa", "Durga Aarti", "Gayatri Mantra", "Vishnu Aarti",
+  "Mahamrityunjaya Mantra", "Shiv Tandav", "Lakshmi Aarti", "Durga Chalisa",
 ];
+const POPULAR_SEARCHES = CANDIDATE_SEARCHES.filter((q) => {
+  const lower = q.toLowerCase();
+  return ALL_CONTENT.some(
+    (item) =>
+      item.title.english.toLowerCase().includes(lower) ||
+      item.keywords.some((k) => k.toLowerCase().includes(lower))
+  );
+});
 
 export default function HomePage() {
   const featured = ALL_CONTENT.slice(0, 6);

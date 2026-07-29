@@ -3,12 +3,14 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 
+// Only categories that have content. /bhajan, /ashtakam, /kavacham,
+// /sahasranama and /vrat-katha are not built yet — do not link them.
 const NAV = [
   { label: "Chalisa", href: "/chalisa" },
   { label: "Aarti",   href: "/aarti"   },
   { label: "Stotra",  href: "/stotra"  },
   { label: "Mantra",  href: "/mantra"  },
-  { label: "Bhajan",  href: "/bhajan"  },
+  { label: "Deities", href: "/deity"   },
 ];
 
 export default function Header() {

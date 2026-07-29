@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       url:         `https://shivchalisa.org/${category}/${slug}`,
       images: [
         {
-          url: "/og-image.svg",
+          url: "/og-image.png",
           width: 1200,
           height: 630,
           alt: `${item.title.english} - ${item.title.hindi}`,
@@ -46,7 +46,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       card:        "summary_large_image",
       title:       item.metaTitle,
       description: item.metaDescription,
-      images:      ["/og-image.svg"],
+      images:      ["/og-image.png"],
     },
   };
 }

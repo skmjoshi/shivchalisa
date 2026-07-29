@@ -57,10 +57,11 @@ export default function Footer() {
             <span className="text-orange-200 font-bold text-sm">🕉️ BhaktiSagar</span>
             {" "}— Devotional texts in Hindi, English & Sanskrit
           </p>
-          <div className="flex gap-4">
+          <div className="flex flex-wrap justify-center gap-x-4 gap-y-2">
+            <Link href="/about" className="hover:text-orange-200 transition-colors">About</Link>
+            <Link href="/contact" className="hover:text-orange-200 transition-colors">Contact</Link>
+            <Link href="/privacy" className="hover:text-orange-200 transition-colors">Privacy</Link>
             <Link href="/deity" className="hover:text-orange-200 transition-colors">Deities</Link>
-            <Link href="/chalisa" className="hover:text-orange-200 transition-colors">Chalisa</Link>
-            <Link href="/aarti" className="hover:text-orange-200 transition-colors">Aarti</Link>
             <Link href="/sitemap.xml" className="hover:text-orange-200 transition-colors">Sitemap</Link>
           </div>
         </div>
