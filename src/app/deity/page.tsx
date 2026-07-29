@@ -4,18 +4,18 @@ import { DEITY_LABELS, type Deity } from "@/lib/types";
 import { getByDeity } from "@/data";
 
 export const metadata: Metadata = {
-  title: "Browse by Deity – Shiva, Hanuman, Ganesha, Durga & More | BhaktiSagar",
+  title: "Browse by Deity – Shiva, Hanuman, Ganesha, Durga & More",
   description: "Browse all devotional texts by deity — Shiv Chalisa, Hanuman Chalisa, Ganesh Aarti, Durga Stotra and more. Find prayers, mantras and hymns for every Hindu deity.",
   alternates: { canonical: "https://shivchalisa.org/deity" },
   openGraph: {
-    title: "Browse by Deity – Shiva, Hanuman, Ganesha, Durga & More | BhaktiSagar",
+    title: "Browse by Deity – Shiva, Hanuman, Ganesha, Durga & More",
     description: "Browse all devotional texts by deity — Shiv Chalisa, Hanuman Chalisa, Ganesh Aarti, Durga Stotra and more.",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Browse by Deity - BhaktiSagar",
+        alt: "Browse by Deity - Shiv Chalisa",
       },
     ],
   },

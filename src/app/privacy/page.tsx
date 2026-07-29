@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: { absolute: "Privacy Policy – What We Collect and What We Don't | BhaktiSagar" },
+  title: { absolute: "Privacy Policy – What We Collect and What We Don't" },
   description:
-    "BhaktiSagar privacy policy: what analytics we run, what cookies are set, what we do not collect, and how to opt out.",
+    "Shiv Chalisa privacy policy: what analytics we run, what cookies are set, what we do not collect, and how to opt out.",
   alternates: { canonical: "https://shivchalisa.org/privacy" },
 };
 
@@ -27,7 +27,7 @@ export default function PrivacyPage() {
       </h1>
 
       <p className="text-base leading-relaxed mb-6" style={{ color: "var(--ink)" }}>
-        BhaktiSagar is published by Rocket Internet. This page describes, in plain language, what
+        Shiv Chalisa is published by Rocket Internet. This page describes, in plain language, what
         happens to data when you visit this site.
       </p>
 

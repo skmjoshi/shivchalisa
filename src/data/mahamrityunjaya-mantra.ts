@@ -5,7 +5,7 @@ const mahamrityunjayaMantra: ContentItem = {
   category: "mantra",
   deity: "shiva",
   title: { hindi: "महामृत्युञ्जय मन्त्र", english: "Mahamrityunjaya Mantra" },
-  metaTitle: "Mahamrityunjaya Mantra – महामृत्युञ्जय मन्त्र Lyrics, Meaning & Benefits | BhaktiSagar",
+  metaTitle: "Mahamrityunjaya Mantra – महामृत्युञ्जय मन्त्र Lyrics, Meaning & Benefits",
   metaDescription: "Read the Mahamrityunjaya Mantra (महामृत्युञ्जय मन्त्र) in Sanskrit with meaning, benefits and how to chant. The great death-conquering mantra of Lord Shiva from the Rigveda.",
   keywords: ["mahamrityunjaya mantra","mahamrityunjaya mantra lyrics","महामृत्युञ्जय मन्त्र","maha mrityunjaya mantra","mahamrityunjay mantra meaning","mahamrityunjaya mantra benefits","tryambakam yajamahe","shiva mantra","mrityunjaya mantra"],
   intro: "The Mahamrityunjaya Mantra (महामृत्युञ्जय मन्त्र) — also called the Tryambakam Mantra — is one of the most ancient and powerful mantras in the Vedic tradition. Found in the Rigveda (7.59.12), it is a prayer to Lord Shiva as the conqueror of death, asking for liberation from the cycle of birth and death. It is considered the supreme healing mantra in all of Hinduism.",

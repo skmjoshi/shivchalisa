@@ -5,7 +5,7 @@ const vishnuAarti: ContentItem = {
   category: "aarti",
   deity: "vishnu",
   title: { hindi: "ॐ जय जगदीश हरे – विष्णु आरती", english: "Vishnu Aarti – Om Jai Jagdish Hare" },
-  metaTitle: "Vishnu Aarti – ॐ जय जगदीश हरे Lyrics in Hindi & English with Meaning | BhaktiSagar",
+  metaTitle: "Vishnu Aarti – ॐ जय जगदीश हरे Lyrics in Hindi & English with Meaning",
   metaDescription: "Read Vishnu Aarti (ॐ जय जगदीश हरे) full lyrics in Hindi and English with meaning. The most widely sung Aarti in Hindu homes.",
   keywords: ["vishnu aarti","om jai jagdish hare","jai jagdish hare","om jai jagdish hare lyrics","विष्णु आरती","jagdish aarti","hari aarti","vishnu aarti in hindi","om jai jagdish hare meaning"],
   intro: "Vishnu Aarti — 'ॐ जय जगदीश हरे' — is the single most widely sung Aarti in Hindu households across India. Composed by Pandit Shardaram Bhaktmal in 1870, it is performed in virtually every Hindu home during the evening puja. Its simple, universal melody makes it accessible to devotees of all ages.",

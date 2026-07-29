@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: { absolute: "Contact BhaktiSagar – Report a Correction or Get in Touch | BhaktiSagar" },
+  title: { absolute: "Contact Shiv Chalisa – Report a Correction or Get in Touch" },
   description:
-    "Contact BhaktiSagar to report an error in a Chalisa, Aarti or Mantra text, suggest a hymn to add, or ask about reuse and permissions.",
+    "Contact Shiv Chalisa to report an error in a Chalisa, Aarti or Mantra text, suggest a hymn to add, or ask about reuse and permissions.",
   alternates: { canonical: "https://shivchalisa.org/contact" },
 };
 
@@ -27,7 +27,7 @@ export default function ContactPage() {
       </h1>
 
       <p className="text-base leading-relaxed mb-6" style={{ color: "var(--ink)" }}>
-        BhaktiSagar is published by Rocket Internet. You can reach us by email at:
+        Shiv Chalisa is published by Rocket Internet. You can reach us by email at:
       </p>
 
       <div

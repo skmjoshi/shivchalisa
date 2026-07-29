@@ -5,7 +5,7 @@ const lakshmiAarti: ContentItem = {
   category: "aarti",
   deity: "lakshmi",
   title: { hindi: "ॐ जय लक्ष्मी माता – लक्ष्मी आरती", english: "Lakshmi Aarti – Om Jai Lakshmi Mata" },
-  metaTitle: "Lakshmi Aarti – ॐ जय लक्ष्मी माता Lyrics in Hindi & English with Meaning | BhaktiSagar",
+  metaTitle: "Lakshmi Aarti – ॐ जय लक्ष्मी माता Lyrics in Hindi & English with Meaning",
   metaDescription: "Read Lakshmi Aarti (ॐ जय लक्ष्मी माता) full lyrics in Hindi and English with meaning. The most popular Goddess Lakshmi Aarti for wealth, prosperity and happiness.",
   keywords: ["lakshmi aarti","om jai lakshmi mata","lakshmi aarti lyrics","लक्ष्मी आरती","maa lakshmi aarti","om jai lakshmi mata lyrics","lakshmi aarti in hindi","diwali aarti"],
   intro: "Lakshmi Aarti — 'ॐ जय लक्ष्मी माता' — is one of the most sung prayers in Hindu households, performed every Friday and especially on Diwali. It praises Goddess Lakshmi — the goddess of wealth, beauty, fortune and auspiciousness — and seeks her blessings for prosperity and happiness.",

@@ -66,8 +66,8 @@ export default async function ContentRoute({ params }: Props) {
     headline:      item.metaTitle,
     description:   item.metaDescription,
     inLanguage:    hasSanskrit ? ["hi", "en", "sa"] : ["hi", "en"],
-    author:    { "@type": "Organization", name: "BhaktiSagar" },
-    publisher: { "@type": "Organization", name: "BhaktiSagar", url: "https://shivchalisa.org" },
+    author:    { "@type": "Organization", name: "Shiv Chalisa" },
+    publisher: { "@type": "Organization", name: "Shiv Chalisa", url: "https://shivchalisa.org" },
     datePublished: "2026-06-01",
     mainEntityOfPage: `https://shivchalisa.org/${category}/${slug}`,
   };

@@ -5,7 +5,7 @@ const ganeshAarti: ContentItem = {
   category: "aarti",
   deity: "ganesha",
   title: { hindi: "जय गणेश जय गणेश देवा – गणेश आरती", english: "Ganesh Aarti – Jai Ganesh Jai Ganesh Deva" },
-  metaTitle: "Ganesh Aarti – जय गणेश जय गणेश देवा Lyrics in Hindi & English with Meaning | BhaktiSagar",
+  metaTitle: "Ganesh Aarti – जय गणेश जय गणेश देवा Lyrics in Hindi & English with Meaning",
   metaDescription: "Read Ganesh Aarti (जय गणेश जय गणेश देवा) full lyrics in Hindi and English with meaning. Sung before every puja and on Ganesh Chaturthi.",
   keywords: ["ganesh aarti","jai ganesh jai ganesh deva","ganesh aarti lyrics","गणेश आरती","ganpati aarti","ganesh aarti in hindi","ganesh chaturthi aarti","jai ganesh deva"],
   intro: "Ganesh Aarti — 'जय गणेश जय गणेश देवा' — is one of the most universally sung devotional aartis in India. Since Lord Ganesha is the first deity to be worshipped before any puja or new beginning, this Aarti is heard in virtually every Hindu household and temple every single day.",

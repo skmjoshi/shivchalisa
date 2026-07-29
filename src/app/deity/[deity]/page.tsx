@@ -112,18 +112,18 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const items = getByDeity(deity);
 
   return {
-    title: { absolute: `${meta?.title ?? label} | BhaktiSagar` },
+    title: { absolute: `${meta?.title ?? label}` },
     description: meta?.desc ?? `All ${label} devotional texts with lyrics and meaning.`,
     alternates: { canonical: `https://shivchalisa.org/deity/${deity}` },
     openGraph: {
-      title: `${label} – Chalisa, Aarti, Stotra & Mantra | BhaktiSagar`,
+      title: `${label} – Chalisa, Aarti, Stotra & Mantra`,
       description: meta?.desc,
       images: [
         {
           url: "/og-image.png",
           width: 1200,
           height: 630,
-          alt: `${label} - Devotional Texts on BhaktiSagar`,
+          alt: `${label} - Devotional Texts on Shiv Chalisa`,
         },
       ],
     },

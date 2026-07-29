@@ -9,7 +9,7 @@ const shivChalisa: ContentItem = {
     english: "Shiv Chalisa",
   },
   metaTitle:
-    "Shiv Chalisa – श्री शिव चालीसा Lyrics in Hindi & English with Meaning | BhaktiSagar",
+    "Shiv Chalisa – श्री शिव चालीसा Lyrics in Hindi & English with Meaning",
   metaDescription:
     "Read Shiv Chalisa (शिव चालीसा) – full 40 verses in Hindi and English with word-by-word meaning and benefits. ॐ नमः शिवाय।",
   keywords: [
@@ -299,7 +299,7 @@ const shivChalisa: ContentItem = {
       english:
         "Moko Jagat Taap Na Sataave.\nYah Var Deu Ta Naam Dharaave.",
       meaning:
-        "Grant me this boon: that the pains of this world no longer torment me — and this name 'BhaktiSagar' shall then glorify your name.",
+        "Grant me this boon: that the pains of this world no longer torment me — and this name 'Shiv Chalisa' shall then glorify your name.",
     },
     {
       number: 29,

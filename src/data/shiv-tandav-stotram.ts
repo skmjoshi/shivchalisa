@@ -5,7 +5,7 @@ const shivTandavStotram: ContentItem = {
   category: "stotra",
   deity: "shiva",
   title: { hindi: "शिव तांडव स्तोत्रम्", english: "Shiv Tandav Stotram" },
-  metaTitle: "Shiv Tandav Stotram – शिव तांडव स्तोत्रम् Lyrics in Sanskrit & Hindi with Meaning | BhaktiSagar",
+  metaTitle: "Shiv Tandav Stotram – शिव तांडव स्तोत्रम् Lyrics in Sanskrit & Hindi with Meaning",
   metaDescription: "Read Shiv Tandav Stotram (शिव तांडव स्तोत्रम्) full lyrics in Sanskrit and Hindi with meaning. The most powerful Shiva hymn composed by Ravana.",
   keywords: ["shiv tandav stotram","shiv tandav","शिव तांडव स्तोत्रम्","shiv tandav lyrics","shiv tandav meaning","shiv tandav stotram in hindi","shiv tandav stotram sanskrit","ravana shiv stotram","shiv tandav audio"],
   intro: "Shiv Tandav Stotram (शिव तांडव स्तोत्रम्) is one of the most powerful and musically celebrated hymns in all of Sanskrit literature. It was composed by the learned Ravana — king of Lanka — while performing penance for Lord Shiva. The poem's thundering rhythm imitates the cosmic dance (Tandava) of Shiva himself.",

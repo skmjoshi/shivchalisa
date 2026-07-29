@@ -3,9 +3,9 @@ import Link from "next/link";
 import { ALL_CONTENT } from "@/data";
 
 export const metadata: Metadata = {
-  title: { absolute: "About BhaktiSagar – Who We Are & How We Source Our Texts | BhaktiSagar" },
+  title: { absolute: "About Shiv Chalisa – Who We Are & How We Source Our Texts" },
   description:
-    "About BhaktiSagar: who maintains the site, where our Chalisa, Aarti, Stotra and Mantra texts come from, and how we check each transcription.",
+    "About Shiv Chalisa: who maintains the site, where our Chalisa, Aarti, Stotra and Mantra texts come from, and how we check each transcription.",
   alternates: { canonical: "https://shivchalisa.org/about" },
 };
 
@@ -24,11 +24,11 @@ export default function AboutPage() {
         className="font-extrabold mb-4"
         style={{ fontSize: "clamp(1.5rem,4vw,2rem)", color: "var(--deep)" }}
       >
-        About BhaktiSagar
+        About Shiv Chalisa
       </h1>
 
       <p className="text-base leading-relaxed mb-6" style={{ color: "var(--ink)" }}>
-        BhaktiSagar is an independent devotional-text library published by Rocket Internet.
+        Shiv Chalisa is an independent devotional-text library published by Rocket Internet.
         We publish Hindu devotional texts — Chalisa, Aarti, Stotra and Mantra — with the full
         original verses in Devanagari, a Roman transliteration, and a plain-English meaning for
         every verse. The site is free, carries no advertising, and needs no account to read.
@@ -80,7 +80,7 @@ export default function AboutPage() {
         style={{ background: "var(--cream-2)", border: "1px solid var(--line)" }}
       >
         <p className="text-sm" style={{ color: "var(--muted)" }}>
-          BhaktiSagar is not affiliated with any temple, religious organisation or commercial
+          Shiv Chalisa is not affiliated with any temple, religious organisation or commercial
           publisher. Nothing here is a substitute for guidance from a qualified teacher or priest,
           and nothing on this site is medical, legal or financial advice.
         </p>

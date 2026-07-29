@@ -75,18 +75,18 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const langs = hasSanskrit ? "Hindi, English & Sanskrit" : "Hindi & English";
 
   return {
-    title: { absolute: `${label} – All ${label}s with Lyrics & Meaning | BhaktiSagar` },
+    title: { absolute: `${label} – All ${label}s with Lyrics & Meaning` },
     description: `Read all ${label}s — ${meta?.desc ?? ""}. Full lyrics in ${langs} with meaning. ${items.length} ${label}s available.`,
     alternates: { canonical: `https://shivchalisa.org/${category}` },
     openGraph: {
-      title: `${label} – All ${label}s with Lyrics & Meaning | BhaktiSagar`,
+      title: `${label} – All ${label}s with Lyrics & Meaning`,
       description: `Read all ${label}s — ${meta?.desc ?? ""}. Full lyrics in ${langs} with meaning.`,
       images: [
         {
           url: "/og-image.png",
           width: 1200,
           height: 630,
-          alt: `${label} Collection - BhaktiSagar`,
+          alt: `${label} Collection - Shiv Chalisa`,
         },
       ],
     },

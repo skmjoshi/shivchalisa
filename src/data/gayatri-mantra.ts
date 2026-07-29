@@ -5,7 +5,7 @@ const gayatriMantra: ContentItem = {
   category: "mantra",
   deity: "surya",
   title: { hindi: "गायत्री मन्त्र", english: "Gayatri Mantra" },
-  metaTitle: "Gayatri Mantra – गायत्री मन्त्र Lyrics in Sanskrit & Hindi with Meaning & Benefits | BhaktiSagar",
+  metaTitle: "Gayatri Mantra – गायत्री मन्त्र Lyrics in Sanskrit & Hindi with Meaning & Benefits",
   metaDescription: "Read the Gayatri Mantra (गायत्री मन्त्र) in Sanskrit with full meaning word by word, benefits and how to chant. The most sacred Vedic mantra.",
   keywords: ["gayatri mantra","gayatri mantra lyrics","गायत्री मन्त्र","gayatri mantra meaning","gayatri mantra in hindi","gayatri mantra benefits","gayatri mantra sanskrit","om bhur bhuvas swah","vedic mantra","gayatri mantra 108 times"],
   intro: "The Gayatri Mantra (गायत्री मन्त्र) is the most sacred and universally revered mantra in Hinduism. Found in the Rigveda (3.62.10), it is a prayer to the divine light of the Sun (Savitur) — asking it to illuminate our intellect and guide our thoughts. For thousands of years, it has been chanted daily at sunrise, noon and sunset.",

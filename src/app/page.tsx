@@ -6,7 +6,7 @@ import ContentCard from "@/components/ContentCard";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Shiv Chalisa, Hanuman Chalisa & Aarti – Lyrics & Meaning | BhaktiSagar",
+    absolute: "Shiv Chalisa, Hanuman Chalisa & Aarti – Lyrics & Meaning",
   },
   description:
     "Read Shiv Chalisa, Hanuman Chalisa, Durga Aarti and other Hindu devotional texts with lyrics and meaning in Hindi, English & Sanskrit.",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "BhaktiSagar - Devotional Texts in Hindi, English & Sanskrit",
+        alt: "Shiv Chalisa - Devotional Texts in Hindi, English & Sanskrit",
       },
     ],
   },
@@ -178,7 +178,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── Why BhaktiSagar ──────────────────────────────────── */}
+      {/* ── Why Shiv Chalisa ──────────────────────────────────── */}
       <section
         className="max-w-6xl mx-auto px-4 mt-14 mb-4 rounded-3xl py-10 text-center"
         style={{ background: "var(--cream-2)" }}
@@ -187,7 +187,7 @@ export default function HomePage() {
           className="font-bold mb-8"
           style={{ fontSize: "1.35rem", color: "var(--deep)" }}
         >
-          Why BhaktiSagar?
+          Why Shiv Chalisa?
         </h2>
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 max-w-3xl mx-auto">
           {[

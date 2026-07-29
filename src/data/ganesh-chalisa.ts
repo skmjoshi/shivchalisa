@@ -9,7 +9,7 @@ const ganeshChalisa: ContentItem = {
     english: "Ganesh Chalisa",
   },
   metaTitle:
-    "Ganesh Chalisa – श्री गणेश चालीसा Lyrics in Hindi & English with Meaning | BhaktiSagar",
+    "Ganesh Chalisa – श्री गणेश चालीसा Lyrics in Hindi & English with Meaning",
   metaDescription:
     "Read Ganesh Chalisa (गणेश चालीसा) lyrics in Hindi and English with meaning. Recite before any new work to invoke Lord Ganesha's blessings.",
   keywords: [

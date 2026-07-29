@@ -47,11 +47,11 @@ export default function Header() {
         <Link
           href="/"
           className="flex items-center gap-2 shrink-0 text-white font-extrabold text-xl tracking-tight"
-          aria-label="BhaktiSagar home"
+          aria-label="Shiv Chalisa home"
         >
           <span className="text-2xl leading-none">🕉️</span>
           <span>
-            Bhakti<span className="text-orange-200">Sagar</span>
+            Shiv<span className="text-orange-200"> Chalisa</span>
           </span>
         </Link>
 

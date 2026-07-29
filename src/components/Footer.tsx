@@ -54,7 +54,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="border-t border-white/10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-orange-200/50">
           <p>
-            <span className="text-orange-200 font-bold text-sm">🕉️ BhaktiSagar</span>
+            <span className="text-orange-200 font-bold text-sm">🕉️ Shiv Chalisa</span>
             {" "}— Devotional texts in Hindi, English & Sanskrit
           </p>
           <div className="flex flex-wrap justify-center gap-x-4 gap-y-2">

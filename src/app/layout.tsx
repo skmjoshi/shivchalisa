@@ -6,20 +6,20 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   metadataBase: new URL("https://shivchalisa.org"),
   title: {
-    default: "BhaktiSagar - Shiv Chalisa, Hanuman Chalisa, Aarti, Stotra & Mantra in Hindi, English & Sanskrit",
-    template: "%s | BhaktiSagar",
+    default: "Shiv Chalisa – Chalisa, Aarti, Stotra & Mantra Lyrics with Meaning",
+    template: "%s",
   },
   description:
-    "BhaktiSagar - Read Shiv Chalisa, Hanuman Chalisa, Durga Aarti and other Hindu devotional texts with lyrics and meaning in Hindi, English and Sanskrit.",
+    "Read Shiv Chalisa, Hanuman Chalisa, Durga Aarti and other Hindu devotional texts with lyrics and meaning in Hindi, English and Sanskrit.",
   keywords: [
-    "bhaktisagar", "chalisa", "aarti", "stotra", "mantra", "shiv chalisa",
+    "shiv chalisa", "chalisa", "aarti", "stotra", "mantra",
     "hanuman chalisa", "devotional", "bhakti", "hindu prayer", "puja",
     "shiv chalisa lyrics", "hanuman chalisa lyrics", "aarti sangrah",
     "hindu devotional songs", "sanskrit stotra", "hindu mantra",
-    "shree shiv chalisa", "बजरंग बाण", "हनुमान चालीसा",
+    "shree shiv chalisa", "शिव चालीसा", "हनुमान चालीसा",
   ],
-  authors: [{ name: "BhaktiSagar", url: "https://shivchalisa.org" }],
-  publisher: "BhaktiSagar",
+  authors: [{ name: "Shiv Chalisa", url: "https://shivchalisa.org" }],
+  publisher: "Shiv Chalisa",
   formatDetection: {
     telephone: true,
     email: false,
@@ -27,14 +27,14 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: "website",
-    siteName: "BhaktiSagar",
+    siteName: "Shiv Chalisa",
     locale: "en_IN",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "BhaktiSagar - Devotional Texts in Hindi, English & Sanskrit",
+        alt: "Shiv Chalisa - Devotional Texts in Hindi, English & Sanskrit",
       },
     ],
   },
@@ -80,7 +80,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "WebSite",
-              name: "BhaktiSagar",
+              name: "Shiv Chalisa",
               url: "https://shivchalisa.org/",
               description: "Read Shiv Chalisa, Hanuman Chalisa, Durga Aarti and other Hindu devotional texts with lyrics and meaning in Hindi, English and Sanskrit.",
               potentialAction: {
@@ -100,10 +100,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-              name: "BhaktiSagar",
+              name: "Shiv Chalisa",
               url: "https://shivchalisa.org",
               logo: "https://shivchalisa.org/favicon.svg",
-              description: "BhaktiSagar - Read Shiv Chalisa, Hanuman Chalisa, Durga Aarti and other Hindu devotional texts with lyrics and meaning in Hindi, English and Sanskrit.",
+              description: "Shiv Chalisa - Read Shiv Chalisa, Hanuman Chalisa, Durga Aarti and other Hindu devotional texts with lyrics and meaning in Hindi, English and Sanskrit.",
               sameAs: [],
               contactPoint: {
                 "@type": "ContactPoint",

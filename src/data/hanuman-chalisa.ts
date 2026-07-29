@@ -9,7 +9,7 @@ const hanumanChalisa: ContentItem = {
     english: "Hanuman Chalisa",
   },
   metaTitle:
-    "Hanuman Chalisa – श्री हनुमान चालीसा Lyrics in Hindi, English & Meaning | BhaktiSagar",
+    "Hanuman Chalisa – श्री हनुमान चालीसा Lyrics in Hindi, English & Meaning",
   metaDescription:
     "Read Hanuman Chalisa (हनुमान चालीसा) full 40 verses in Hindi and English with meaning and benefits. Written by Goswami Tulsidas. ॥ जय हनुमान ज्ञान गुण सागर ॥",
   keywords: [

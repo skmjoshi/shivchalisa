@@ -9,7 +9,7 @@ const shivAarti: ContentItem = {
     english: "Shiv Aarti – Om Jai Shiv Omkara",
   },
   metaTitle:
-    "Shiv Aarti – ॐ जय शिव ओंकारा Lyrics in Hindi & English with Meaning | BhaktiSagar",
+    "Shiv Aarti – ॐ जय शिव ओंकारा Lyrics in Hindi & English with Meaning",
   metaDescription:
     "Read Shiv Aarti (ॐ जय शिव ओंकारा) full lyrics in Hindi and English with meaning. The most popular Shiva Aarti sung in temples across India.",
   keywords: [
