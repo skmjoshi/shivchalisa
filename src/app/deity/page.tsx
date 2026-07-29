@@ -1,27 +1,39 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Link from "next/link";
 import { DEITY_LABELS, type Deity } from "@/lib/types";
 import { getByDeity } from "@/data";
 
 export const metadata: Metadata = {
-  title: "Browse by Deity â€“ Shiva, Hanuman, Ganesha, Durga & More | BhaktiSagar",
-  description: "Browse all devotional texts by deity â€” Shiv Chalisa, Hanuman Chalisa, Ganesh Aarti, Durga Stotra and more. Find prayers, mantras and hymns for every Hindu deity.",
+  title: "Browse by Deity – Shiva, Hanuman, Ganesha, Durga & More | BhaktiSagar",
+  description: "Browse all devotional texts by deity — Shiv Chalisa, Hanuman Chalisa, Ganesh Aarti, Durga Stotra and more. Find prayers, mantras and hymns for every Hindu deity.",
   alternates: { canonical: "https://shivchalisa.org/deity" },
+  openGraph: {
+    title: "Browse by Deity – Shiva, Hanuman, Ganesha, Durga & More | BhaktiSagar",
+    description: "Browse all devotional texts by deity — Shiv Chalisa, Hanuman Chalisa, Ganesh Aarti, Durga Stotra and more.",
+    images: [
+      {
+        url: "/og-image.svg",
+        width: 1200,
+        height: 630,
+        alt: "Browse by Deity - BhaktiSagar",
+      },
+    ],
+  },
 };
 
 const DEITIES: { slug: Deity; icon: string; color: string }[] = [
-  { slug: "shiva",     icon: "ðŸ•‰ï¸",  color: "#b23a00" },
-  { slug: "hanuman",   icon: "ðŸ’",  color: "#c25000" },
-  { slug: "ganesha",   icon: "ðŸ˜",  color: "#9c3a00" },
-  { slug: "durga",     icon: "ðŸŒº",  color: "#7a0000" },
-  { slug: "lakshmi",   icon: "ðŸª·",  color: "#8a5200" },
-  { slug: "krishna",   icon: "ðŸ¦š",  color: "#1a4a8a" },
-  { slug: "rama",      icon: "ðŸ¹",  color: "#1a5e2a" },
-  { slug: "vishnu",    icon: "ðŸ’™",  color: "#1a3a6a" },
-  { slug: "saraswati", icon: "ðŸŽ¶",  color: "#2a5a8a" },
-  { slug: "surya",     icon: "â˜€ï¸",  color: "#8a5a00" },
-  { slug: "shani",     icon: "ðŸª",  color: "#2a2a4a" },
-  { slug: "sai-baba",  icon: "ðŸ™",  color: "#4a3a00" },
+  { slug: "shiva",     icon: "🕉️",  color: "#b23a00" },
+  { slug: "hanuman",   icon: "🐒",  color: "#c25000" },
+  { slug: "ganesha",   icon: "🐘",  color: "#9c3a00" },
+  { slug: "durga",     icon: "🌺",  color: "#7a0000" },
+  { slug: "lakshmi",   icon: "🪷",  color: "#8a5200" },
+  { slug: "krishna",   icon: "🦚",  color: "#1a4a8a" },
+  { slug: "rama",      icon: "🏹",  color: "#1a5e2a" },
+  { slug: "vishnu",    icon: "💙",  color: "#1a3a6a" },
+  { slug: "saraswati", icon: "🎶",  color: "#2a5a8a" },
+  { slug: "surya",     icon: "☀️",  color: "#8a5a00" },
+  { slug: "shani",     icon: "🪐",  color: "#2a2a4a" },
+  { slug: "sai-baba",  icon: "🙏",  color: "#4a3a00" },
 ];
 
 export default function DeityIndexPage() {
@@ -30,7 +42,7 @@ export default function DeityIndexPage() {
       {/* Breadcrumb */}
       <nav className="text-sm mb-6" style={{ color: "var(--muted)" }}>
         <Link href="/" className="hover:underline">Home</Link>
-        {" â€º "}
+        {" › "}
         <span style={{ color: "var(--deep)" }} className="font-medium">Deities</span>
       </nav>
 

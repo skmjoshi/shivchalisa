@@ -1,0 +1,21 @@
+{
+  "name": "BhaktiSagar - Chalisa, Aarti, Stotra & Mantra",
+  "short_name": "BhaktiSagar",
+  "description": "Read & listen to Shiv Chalisa, Hanuman Chalisa, Durga Aarti and 1000+ devotional texts with lyrics, meaning and audio in Hindi, English and Sanskrit.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fff8f0",
+  "theme_color": "#ff7a18",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/apple-icon.svg",
+      "sizes": "180x180",
+      "type": "image/svg+xml"
+    }
+  ]
+}

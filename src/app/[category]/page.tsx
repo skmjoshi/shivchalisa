@@ -72,9 +72,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const items = getByCategory(category);
 
   return {
-    title: `${label} – All ${label}s with Lyrics, Meaning & Audio | BhaktiSagar`,
+    title: { absolute: `${label} – All ${label}s with Lyrics, Meaning & Audio | BhaktiSagar` },
     description: `Read all ${label}s — ${meta?.desc ?? ""}. Full lyrics in Hindi, English & Sanskrit with meaning and audio. ${items.length} ${label}s available.`,
     alternates: { canonical: `https://shivchalisa.org/${category}` },
+    openGraph: {
+      title: `${label} – All ${label}s with Lyrics, Meaning & Audio | BhaktiSagar`,
+      description: `Read all ${label}s — ${meta?.desc ?? ""}. Full lyrics in Hindi, English & Sanskrit with meaning and audio.`,
+      images: [
+        {
+          url: "/og-image.svg",
+          width: 1200,
+          height: 630,
+          alt: `${label} Collection - BhaktiSagar`,
+        },
+      ],
+    },
   };
 }
 

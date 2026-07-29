@@ -22,26 +22,31 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!item) return { title: "Not found" };
 
   return {
-    title:       item.metaTitle,
+    title:       { absolute: item.metaTitle },
     description: item.metaDescription,
     keywords:    item.keywords,
     alternates: {
       canonical: `https://shivchalisa.org/${category}/${slug}`,
-      languages: {
-        "hi": `https://shivchalisa.org/hi/${category}/${slug}`,
-        "en": `https://shivchalisa.org/${category}/${slug}`,
-      },
     },
     openGraph: {
       title:       item.metaTitle,
       description: item.metaDescription,
       type:        "article",
       url:         `https://shivchalisa.org/${category}/${slug}`,
+      images: [
+        {
+          url: "/og-image.svg",
+          width: 1200,
+          height: 630,
+          alt: `${item.title.english} - ${item.title.hindi}`,
+        },
+      ],
     },
     twitter: {
       card:        "summary_large_image",
       title:       item.metaTitle,
       description: item.metaDescription,
+      images:      ["/og-image.svg"],
     },
   };
 }

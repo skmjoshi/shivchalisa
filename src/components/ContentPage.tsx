@@ -188,18 +188,22 @@ export default function ContentPage({ item, related }: Props) {
       )}
 
       {/* ── PDF download ───────────────────────────────────── */}
-      <div className="mt-8 p-4 rounded-2xl text-center"
-           style={{ background:"var(--cream-2)", border:"1px solid var(--line)" }}>
-        <p className="font-semibold mb-3" style={{ color:"var(--deep)" }}>
-          Download {item.title.english} PDF
-        </p>
-        <button
-          className="px-6 py-2.5 rounded-full text-white font-bold text-sm transition-transform active:scale-95"
-          style={{ background:"linear-gradient(135deg,#ff7a18,#b23a00)" }}
-        >
-          📥 Download Free PDF
-        </button>
-      </div>
+      {item.pdfUrl && (
+        <div className="mt-8 p-4 rounded-2xl text-center"
+             style={{ background:"var(--cream-2)", border:"1px solid var(--line)" }}>
+          <p className="font-semibold mb-3" style={{ color:"var(--deep)" }}>
+            Download {item.title.english} PDF
+          </p>
+          <a
+            href={item.pdfUrl}
+            download
+            className="inline-block px-6 py-2.5 rounded-full text-white font-bold text-sm transition-transform active:scale-95 no-underline"
+            style={{ background:"linear-gradient(135deg,#ff7a18,#b23a00)" }}
+          >
+            Download Free PDF
+          </a>
+        </div>
+      )}
     </article>
   );
 }

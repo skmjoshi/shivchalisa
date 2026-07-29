@@ -61,7 +61,7 @@ export default function Header() {
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Search Shiv Chalisa, Hanuman Aarti…"
             aria-label="Search"
-            className="flex-1 min-w-0 px-4 py-2 text-sm rounded-l-full border-none outline-none text-gray-800 bg-white"
+            className="flex-1 min-w-0 px-4 py-2 text-base rounded-l-full border-none outline-none text-gray-800 bg-white"
           />
           <button
             type="submit"
@@ -88,7 +88,7 @@ export default function Header() {
 
         {/* Hamburger (mobile) */}
         <button
-          className="md:hidden text-white bg-white/20 rounded-lg w-10 h-10 flex items-center justify-center text-xl shrink-0"
+          className="md:hidden text-white bg-white/20 rounded-lg w-11 h-11 flex items-center justify-center text-xl shrink-0"
           aria-label={open ? "Close menu" : "Open menu"}
           aria-expanded={open}
           onClick={() => setOpen((v) => !v)}

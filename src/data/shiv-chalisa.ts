@@ -445,9 +445,9 @@ const shivChalisa: ContentItem = {
     "shiv-aarti",
     "shiv-tandav-stotram",
     "mahamrityunjaya-mantra",
-    "rudrashtakam",
-    "lingashtakam",
-    "shiv-panchakshar-stotra",
+    "hanuman-chalisa",
+    "ganesh-chalisa",
+    "gayatri-mantra",
   ],
 };
 

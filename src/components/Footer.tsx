@@ -10,20 +10,17 @@ const LINKS = {
   Hanuman: [
     { label: "Hanuman Chalisa",  href: "/chalisa/hanuman-chalisa" },
     { label: "Hanuman Aarti",    href: "/aarti/hanuman-aarti" },
-    { label: "Bajrang Baan",     href: "/stotra/bajrang-baan" },
-    { label: "Sankat Mochan",    href: "/stotra/sankat-mochan-hanuman-ashtak" },
   ],
   Devi: [
     { label: "Durga Chalisa",    href: "/chalisa/durga-chalisa" },
     { label: "Durga Aarti",      href: "/aarti/durga-aarti" },
     { label: "Lakshmi Aarti",    href: "/aarti/lakshmi-aarti" },
-    { label: "Saraswati Vandana",href: "/stotra/saraswati-vandana" },
   ],
   Others: [
     { label: "Ganesh Chalisa",   href: "/chalisa/ganesh-chalisa" },
     { label: "Ganesh Aarti",     href: "/aarti/ganesh-aarti" },
-    { label: "Vishnu Sahasranama", href: "/sahasranama/vishnu-sahasranama" },
     { label: "Gayatri Mantra",   href: "/mantra/gayatri-mantra" },
+    { label: "Vishnu Aarti",     href: "/aarti/vishnu-aarti" },
   ],
 };
 
@@ -61,9 +58,9 @@ export default function Footer() {
             {" "}— Devotional texts in Hindi, English & Sanskrit
           </p>
           <div className="flex gap-4">
-            <Link href="/about" className="hover:text-orange-200 transition-colors">About</Link>
-            <Link href="/contact" className="hover:text-orange-200 transition-colors">Contact</Link>
-            <Link href="/privacy" className="hover:text-orange-200 transition-colors">Privacy</Link>
+            <Link href="/deity" className="hover:text-orange-200 transition-colors">Deities</Link>
+            <Link href="/chalisa" className="hover:text-orange-200 transition-colors">Chalisa</Link>
+            <Link href="/aarti" className="hover:text-orange-200 transition-colors">Aarti</Link>
             <Link href="/sitemap.xml" className="hover:text-orange-200 transition-colors">Sitemap</Link>
           </div>
         </div>

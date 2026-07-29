@@ -9,14 +9,12 @@ export default function SearchPage() {
   const [q, setQ] = useState("");
   const [results, setResults] = useState<ContentItem[]>([]);
 
-  // Read ?q= from URL on the client
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
     const query = (params.get("q") ?? "").trim();
     setQ(query);
   }, []);
 
-  // Filter whenever q changes
   useEffect(() => {
     if (!q) { setResults([]); return; }
     const lower = q.toLowerCase();
@@ -27,7 +25,8 @@ export default function SearchPage() {
           item.title.hindi.includes(q) ||
           item.keywords.some((k) => k.toLowerCase().includes(lower)) ||
           item.deity.toLowerCase().includes(lower) ||
-          item.category.toLowerCase().includes(lower)
+          item.category.toLowerCase().includes(lower) ||
+          item.intro.toLowerCase().includes(lower)
       )
     );
   }, [q]);
@@ -38,10 +37,9 @@ export default function SearchPage() {
         Search Results
       </h1>
 
-      {/* Live search box */}
       <input
         type="search"
-        placeholder="Search Chalisa, Aarti, Mantra…"
+        placeholder="Search Chalisa, Aarti, Mantra..."
         defaultValue={q}
         onChange={(e) => setQ(e.target.value.trim())}
         className="w-full rounded-xl border px-4 py-2 mb-6 text-base outline-none"
@@ -81,15 +79,45 @@ export default function SearchPage() {
                 <span className="deva text-sm" style={{ color: "var(--muted)" }}>
                   {item.title.hindi}
                 </span>
+                <span className="text-xs mt-1" style={{ color: "var(--muted)" }}>
+                  {item.intro.slice(0, 120)}...
+                </span>
               </Link>
             </li>
           ))}
         </ul>
       ) : q ? (
-        <p style={{ color: "var(--muted)" }}>
-          No results found. Try &ldquo;Shiv Chalisa&rdquo; or &ldquo;Hanuman Aarti&rdquo;.
-        </p>
-      ) : null}
+        <div className="text-center py-12">
+          <p className="text-4xl mb-3">🙏</p>
+          <p style={{ color: "var(--muted)" }}>
+            No results found for &ldquo;<strong>{q}</strong>&rdquo;. Try &ldquo;Shiv Chalisa&rdquo; or &ldquo;Hanuman Aarti&rdquo;.
+          </p>
+        </div>
+      ) : (
+        <div className="text-center py-12">
+          <p className="text-4xl mb-3">🔍</p>
+          <p className="font-semibold mb-2" style={{ color: "var(--deep)" }}>
+            Search all devotional texts
+          </p>
+          <p className="text-sm" style={{ color: "var(--muted)" }}>
+            Find Chalisa, Aarti, Stotra, Mantra and more with lyrics, meaning and audio.
+          </p>
+          <div className="flex flex-wrap justify-center gap-2 mt-6 max-w-lg mx-auto">
+            {[
+              "Shiv Chalisa", "Hanuman Chalisa", "Ganesh Aarti", "Durga Aarti",
+              "Gayatri Mantra", "Mahamrityunjaya", "Shiv Tandav",
+            ].map((s) => (
+              <Link
+                key={s}
+                href={`/search?q=${encodeURIComponent(s)}`}
+                className="chip text-xs"
+              >
+                {s}
+              </Link>
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   );
 }

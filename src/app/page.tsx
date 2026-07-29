@@ -1,38 +1,52 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Link from "next/link";
 import { ALL_CONTENT } from "@/data";
 import ContentCard from "@/components/ContentCard";
 
 export const metadata: Metadata = {
-  title: "BhaktiSagar â€“ Chalisa, Aarti, Stotra & Mantra | Hindu Devotional Texts",
+  title: {
+    absolute: "Shiv Chalisa, Hanuman Chalisa & Aarti – Lyrics, Meaning & Audio | BhaktiSagar",
+  },
   description:
-    "Read and listen to Shiv Chalisa, Hanuman Chalisa, Durga Aarti, Ganesh Chalisa and 1000+ devotional texts with lyrics, meaning and audio in Hindi, English and Sanskrit.",
+    "Read & listen to Shiv Chalisa, Hanuman Chalisa, Durga Aarti and 1000+ Hindu devotional texts with lyrics, meaning & audio in Hindi, English & Sanskrit.",
   alternates: { canonical: "https://shivchalisa.org" },
+  openGraph: {
+    title: "Shiv Chalisa, Hanuman Chalisa & Aarti – Lyrics, Meaning & Audio",
+    description: "Read & listen to Shiv Chalisa, Hanuman Chalisa, Durga Aarti and 1000+ Hindu devotional texts with lyrics, meaning & audio in Hindi, English & Sanskrit.",
+    images: [
+      {
+        url: "/og-image.svg",
+        width: 1200,
+        height: 630,
+        alt: "BhaktiSagar - Devotional Texts in Hindi, English & Sanskrit",
+      },
+    ],
+  },
 };
 
-/* â”€â”€ Static category data â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+/* ── Static category data ─────────────────────────────────────── */
 const CATEGORIES = [
-  { slug: "chalisa",      icon: "ðŸ“¿", label: "Chalisa",     desc: "40-verse devotional hymns" },
-  { slug: "aarti",        icon: "ðŸª”", label: "Aarti",       desc: "Lamp-offering prayers" },
-  { slug: "stotra",       icon: "ðŸ“–", label: "Stotra",      desc: "Sanskrit praise hymns" },
-  { slug: "mantra",       icon: "ðŸ•‰ï¸", label: "Mantra",      desc: "Sacred sound formulas" },
-  { slug: "ashtakam",     icon: "ðŸŒº", label: "Ashtakam",    desc: "Eight-verse hymns" },
-  { slug: "sahasranama",  icon: "ðŸ“œ", label: "Sahasranama", desc: "1000 divine names" },
-  { slug: "bhajan",       icon: "ðŸŽµ", label: "Bhajan",      desc: "Devotional songs" },
-  { slug: "vrat-katha",   icon: "âœ¨", label: "Vrat Katha",  desc: "Sacred fasting stories" },
+  { slug: "chalisa",      icon: "📿", label: "Chalisa",     desc: "40-verse devotional hymns" },
+  { slug: "aarti",        icon: "🪔", label: "Aarti",       desc: "Lamp-offering prayers" },
+  { slug: "stotra",       icon: "📖", label: "Stotra",      desc: "Sanskrit praise hymns" },
+  { slug: "mantra",       icon: "🕉️", label: "Mantra",      desc: "Sacred sound formulas" },
+  { slug: "ashtakam",     icon: "🌺", label: "Ashtakam",    desc: "Eight-verse hymns" },
+  { slug: "sahasranama",  icon: "📜", label: "Sahasranama", desc: "1000 divine names" },
+  { slug: "bhajan",       icon: "🎵", label: "Bhajan",      desc: "Devotional songs" },
+  { slug: "vrat-katha",   icon: "✨", label: "Vrat Katha",  desc: "Sacred fasting stories" },
 ];
 
 const DEITIES = [
-  { slug: "shiva",     icon: "ðŸ•‰ï¸",  label: "Shiva"     },
-  { slug: "hanuman",   icon: "ðŸ’",  label: "Hanuman"   },
-  { slug: "ganesha",   icon: "ðŸ˜",  label: "Ganesha"   },
-  { slug: "krishna",   icon: "ðŸ¦š",  label: "Krishna"   },
-  { slug: "rama",      icon: "ðŸ¹",  label: "Rama"      },
-  { slug: "durga",     icon: "ðŸŒº",  label: "Durga"     },
-  { slug: "lakshmi",   icon: "ðŸª·",  label: "Lakshmi"   },
-  { slug: "vishnu",    icon: "ðŸ’™",  label: "Vishnu"    },
-  { slug: "saraswati", icon: "ðŸŽ¶",  label: "Saraswati" },
-  { slug: "surya",     icon: "â˜€ï¸",  label: "Surya"     },
+  { slug: "shiva",     icon: "🕉️",  label: "Shiva"     },
+  { slug: "hanuman",   icon: "🐒",  label: "Hanuman"   },
+  { slug: "ganesha",   icon: "🐘",  label: "Ganesha"   },
+  { slug: "krishna",   icon: "🦚",  label: "Krishna"   },
+  { slug: "rama",      icon: "🏹",  label: "Rama"      },
+  { slug: "durga",     icon: "🌺",  label: "Durga"     },
+  { slug: "lakshmi",   icon: "🪷",  label: "Lakshmi"   },
+  { slug: "vishnu",    icon: "💙",  label: "Vishnu"    },
+  { slug: "saraswati", icon: "🎶",  label: "Saraswati" },
+  { slug: "surya",     icon: "☀️",  label: "Surya"     },
 ];
 
 const POPULAR_SEARCHES = [
@@ -47,7 +61,7 @@ export default function HomePage() {
 
   return (
     <>
-      {/* â”€â”€ Hero â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */}
+      {/* ── Hero ─────────────────────────────────────────────── */}
       <section className="hero-bg py-10 md:py-16 text-center px-4">
         <h1
           className="font-extrabold mb-3"
@@ -57,11 +71,11 @@ export default function HomePage() {
             lineHeight: 1.2,
           }}
         >
-          ðŸ•‰ï¸ Devotional Texts, Lyrics & Audio
-          <br className="hidden sm:block" /> â€” All in One Place
+          🕉️ Shiv Chalisa, Hanuman Chalisa & Aarti
+          <br className="hidden sm:block" /> — Lyrics, Meaning & Audio
         </h1>
         <p className="text-base md:text-lg max-w-xl mx-auto mb-6" style={{ color: "var(--muted)" }}>
-          Chalisa Â· Aarti Â· Stotra Â· Mantra in Hindi, English &amp; Sanskrit
+          Chalisa · Aarti · Stotra · Mantra in Hindi, English &amp; Sanskrit
           with word-by-word meaning and audio
         </p>
 
@@ -79,14 +93,14 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* â”€â”€ Featured content â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */}
+      {/* ── Featured content ─────────────────────────────────── */}
       {featured.length > 0 && (
         <section className="max-w-6xl mx-auto px-4 mt-10">
           <h2
             className="font-bold mb-5"
             style={{ fontSize: "1.35rem", color: "var(--deep)" }}
           >
-            ðŸ”¥ Most Popular
+            🔥 Most Popular
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {featured.map((item) => (
@@ -96,7 +110,7 @@ export default function HomePage() {
         </section>
       )}
 
-      {/* â”€â”€ Category grid â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */}
+      {/* ── Category grid ────────────────────────────────────── */}
       <section className="max-w-6xl mx-auto px-4 mt-12">
         <h2
           className="font-bold mb-5"
@@ -124,7 +138,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* â”€â”€ Deity grid â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */}
+      {/* ── Deity grid ───────────────────────────────────────── */}
       <section className="max-w-6xl mx-auto px-4 mt-12">
         <h2
           className="font-bold mb-5"
@@ -149,7 +163,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* â”€â”€ Why BhaktiSagar â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */}
+      {/* ── Why BhaktiSagar ──────────────────────────────────── */}
       <section
         className="max-w-6xl mx-auto px-4 mt-14 mb-4 rounded-3xl py-10 text-center"
         style={{ background: "var(--cream-2)" }}
@@ -162,10 +176,10 @@ export default function HomePage() {
         </h2>
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 max-w-3xl mx-auto">
           {[
-            { icon: "ðŸ“–", label: "Full Lyrics",   desc: "Hindi Â· English Â· Sanskrit" },
-            { icon: "ðŸ’¡", label: "Meaning",        desc: "Verse-by-verse explanation" },
-            { icon: "ðŸ”Š", label: "Audio",          desc: "Listen while you read" },
-            { icon: "ðŸ“±", label: "Mobile-first",   desc: "Perfect on any device" },
+            { icon: "📖", label: "Full Lyrics",   desc: "Hindi · English · Sanskrit" },
+            { icon: "💡", label: "Meaning",        desc: "Verse-by-verse explanation" },
+            { icon: "🔊", label: "Audio",          desc: "Listen while you read" },
+            { icon: "📱", label: "Mobile-first",   desc: "Perfect on any device" },
           ].map((f) => (
             <div key={f.label} className="flex flex-col items-center gap-2">
               <span className="text-4xl">{f.icon}</span>
