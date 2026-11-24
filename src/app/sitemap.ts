@@ -6,15 +6,13 @@ export const dynamic = "force-static";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = "https://shivchalisa.org";
-  const now  = new Date("2026-06-01");
-
   // Homepage, deity hub index, and trust pages
   const staticPages: MetadataRoute.Sitemap = [
-    { url: base,              lastModified: now, changeFrequency: "weekly",  priority: 1.0 },
-    { url: `${base}/deity`,   lastModified: now, changeFrequency: "weekly",  priority: 0.7 },
-    { url: `${base}/about`,   lastModified: now, changeFrequency: "yearly",  priority: 0.4 },
-    { url: `${base}/contact`, lastModified: now, changeFrequency: "yearly",  priority: 0.3 },
-    { url: `${base}/privacy`, lastModified: now, changeFrequency: "yearly",  priority: 0.2 },
+    { url: base,              changeFrequency: "weekly",  priority: 1.0 },
+    { url: `${base}/deity`,   changeFrequency: "weekly",  priority: 0.7 },
+    { url: `${base}/about`,   changeFrequency: "yearly",  priority: 0.4 },
+    { url: `${base}/contact`, changeFrequency: "yearly",  priority: 0.3 },
+    { url: `${base}/privacy`, changeFrequency: "yearly",  priority: 0.2 },
   ];
 
   // Category pages — only those that actually have content (avoid thin pages)
@@ -24,7 +22,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     .filter((cat) => getByCategory(cat).length > 0)
     .map((cat) => ({
       url:             `${base}/${cat}`,
-      lastModified:    now,
       changeFrequency: "weekly",
       priority:        0.9,
     }));
@@ -36,7 +33,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     .filter((deity) => getByDeity(deity).length > 0)
     .map((deity) => ({
       url:             `${base}/deity/${deity}`,
-      lastModified:    now,
       changeFrequency: "monthly",
       priority:        0.8,
     }));
@@ -44,7 +40,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // One entry per content item (the money pages)
   const contentPages: MetadataRoute.Sitemap = ALL_CONTENT.map((item) => ({
     url:             `${base}/${item.category}/${item.slug}`,
-    lastModified:    now,
+    ...(item.dateModified ? { lastModified: new Date(item.dateModified) } : {}),
     changeFrequency: "monthly",
     priority:        0.85,
   }));

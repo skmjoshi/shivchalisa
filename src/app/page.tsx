@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ALL_CONTENT, getByCategory, getByDeity } from "@/data";
+import { ALL_CONTENT, getByCategory, getByDeity, getBySlug } from "@/data";
 import type { Category, Deity } from "@/lib/types";
 import ContentCard from "@/components/ContentCard";
 
@@ -56,18 +56,23 @@ const ALL_DEITIES = [
 const DEITIES = ALL_DEITIES.filter((d) => getByDeity(d.slug as Deity).length > 0);
 
 /* Only suggest searches that actually return a result. */
-const CANDIDATE_SEARCHES = [
-  "Shiv Chalisa", "Shiv Aarti", "Hanuman Chalisa", "Hanuman Aarti",
-  "Ganesh Chalisa", "Durga Aarti", "Gayatri Mantra", "Vishnu Aarti",
-  "Mahamrityunjaya Mantra", "Shiv Tandav", "Lakshmi Aarti", "Durga Chalisa",
+const CANDIDATE_SHORTCUTS = [
+  { label: "Shiv Chalisa", slug: "shiv-chalisa" },
+  { label: "Shiv Aarti", slug: "shiv-aarti" },
+  { label: "Hanuman Chalisa", slug: "hanuman-chalisa" },
+  { label: "Hanuman Aarti", slug: "hanuman-aarti" },
+  { label: "Ganesh Chalisa", slug: "ganesh-chalisa" },
+  { label: "Durga Aarti", slug: "durga-aarti" },
+  { label: "Gayatri Mantra", slug: "gayatri-mantra" },
+  { label: "Vishnu Aarti", slug: "vishnu-aarti" },
+  { label: "Mahamrityunjaya Mantra", slug: "mahamrityunjaya-mantra" },
+  { label: "Shiv Tandav", slug: "shiv-tandav-stotram" },
+  { label: "Lakshmi Aarti", slug: "lakshmi-aarti" },
+  { label: "Durga Chalisa", slug: "durga-chalisa" },
 ];
-const POPULAR_SEARCHES = CANDIDATE_SEARCHES.filter((q) => {
-  const lower = q.toLowerCase();
-  return ALL_CONTENT.some(
-    (item) =>
-      item.title.english.toLowerCase().includes(lower) ||
-      item.keywords.some((k) => k.toLowerCase().includes(lower))
-  );
+const POPULAR_SHORTCUTS = CANDIDATE_SHORTCUTS.flatMap(({ label, slug }) => {
+  const item = getBySlug(slug);
+  return item ? [{ label, href: `/${item.category}/${item.slug}` }] : [];
 });
 
 export default function HomePage() {
@@ -94,19 +99,38 @@ export default function HomePage() {
           with word-by-word meaning
         </p>
 
-        {/* Popular search chips */}
+        {/* Popular devotional text shortcuts */}
         <div className="flex flex-wrap justify-center gap-2 max-w-2xl mx-auto">
-          {POPULAR_SEARCHES.map((s) => (
+          {POPULAR_SHORTCUTS.map(({ label, href }) => (
             <Link
-              key={s}
-              href={`/search?q=${encodeURIComponent(s)}`}
+              key={href}
+              href={href}
               className="chip text-xs"
             >
-              {s}
+              {label}
             </Link>
           ))}
         </div>
       </section>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            name: "Shiv Chalisa",
+            url: "https://shivchalisa.org/",
+            description: "Read Shiv Chalisa, Hanuman Chalisa, Durga Aarti and other Hindu devotional texts with lyrics and meaning in Hindi, English and Sanskrit.",
+            potentialAction: {
+              "@type": "SearchAction",
+              target: "https://shivchalisa.org/search?q={search_term_string}",
+              "query-input": "required name=search_term_string",
+            },
+            inLanguage: ["hi", "en", "sa"],
+          }),
+        }}
+      />
 
       {/* ── Featured content ─────────────────────────────────── */}
       {featured.length > 0 && (

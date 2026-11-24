@@ -70,7 +70,7 @@ const vishnuAarti: ContentItem = {
     { q: "Who composed Om Jai Jagdish Hare?", a: "Om Jai Jagdish Hare was composed by Pandit Shardaram Bhaktmal in 1870 in Punjabi. It quickly spread across all of India and became the most universally sung Aarti." },
     { q: "When is Vishnu Aarti performed?", a: "It is performed during the evening puja (Sandhya Aarti) daily in most Hindu homes. It is especially significant on Ekadashi (11th day of lunar fortnight) and Thursdays." },
   ],
-  relatedSlugs: ["lakshmi-aarti","ganesh-aarti","shiv-aarti","vishnu-sahasranama"],
+  relatedSlugs: ["lakshmi-aarti","ganesh-aarti","shiv-aarti"],
 };
 
 export default vishnuAarti;

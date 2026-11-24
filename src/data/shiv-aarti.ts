@@ -91,12 +91,7 @@ const shivAarti: ContentItem = {
       a: "'Om' is the primordial sacred sound. 'Jai' means victory. 'Shiv Omkara' means Shiva who is the embodiment of Om. The line salutes Lord Shiva as the source of all creation.",
     },
   ],
-  relatedSlugs: [
-    "shiv-chalisa",
-    "shiv-tandav-stotram",
-    "mahamrityunjaya-mantra",
-    "rudrashtakam",
-  ],
+  relatedSlugs: ["shiv-chalisa", "shiv-tandav-stotram", "mahamrityunjaya-mantra"],
 };
 
 export default shivAarti;

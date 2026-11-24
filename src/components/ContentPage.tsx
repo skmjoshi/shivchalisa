@@ -21,6 +21,7 @@ export default function ContentPage({ item, related }: Props) {
 
   const hasSanskrit = item.verses.some((v) => v.sanskrit);
   const LANG_OPTIONS = ALL_LANG_OPTIONS.filter((o) => o.key !== "sanskrit" || hasSanskrit);
+  const verseHeading = `${item.title.english} Lyrics in Hindi & English`;
 
   return (
     <article className="max-w-2xl mx-auto px-4 py-6 animate-fade-in">
@@ -86,6 +87,9 @@ export default function ContentPage({ item, related }: Props) {
 
       {/* ── Verses ─────────────────────────────────────────── */}
       <section aria-label="Verses">
+        <h2 className="sec-heading">
+          {verseHeading}
+        </h2>
         {item.verses.map((verse, i) => {
           const text =
             lang === "hindi"    ? verse.hindi    :

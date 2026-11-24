@@ -72,7 +72,7 @@ const lakshmiAarti: ContentItem = {
     { q: "What does 'Om Jai Lakshmi Mata' mean?", a: "'Om' is the sacred primordial sound. 'Jai' means victory. 'Lakshmi Mata' means Mother Lakshmi. The phrase is a salutation: 'Victory to Mother Lakshmi, the sacred one.'" },
     { q: "What are the benefits of Lakshmi Aarti?", a: "Regular singing of Lakshmi Aarti is believed to invite wealth, remove financial difficulties, bring peace to the household, and earn the blessings of Goddess Lakshmi." },
   ],
-  relatedSlugs: ["durga-aarti","ganesh-aarti","lakshmi-chalisa","vishnu-sahasranama"],
+  relatedSlugs: ["durga-aarti","ganesh-aarti","vishnu-aarti"],
 };
 
 export default lakshmiAarti;

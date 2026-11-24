@@ -52,7 +52,7 @@ const durgaChalisa: ContentItem = {
     { q: "When should Durga Chalisa be recited?", a: "Tuesdays, Fridays and during the nine days of Navratri are the most auspicious times. Reciting it 9 times on Ashtami is considered especially powerful." },
     { q: "What are the benefits of Durga Chalisa?", a: "It invokes protection from evil, fills the devotee with courage, removes obstacles, destroys negative energy, and brings victory in difficult situations." },
   ],
-  relatedSlugs: ["durga-aarti","lakshmi-aarti","saraswati-chalisa","shiv-chalisa"],
+  relatedSlugs: ["durga-aarti","lakshmi-aarti","shiv-chalisa"],
 };
 
 export default durgaChalisa;

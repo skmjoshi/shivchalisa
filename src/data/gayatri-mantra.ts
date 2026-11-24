@@ -46,7 +46,7 @@ const gayatriMantra: ContentItem = {
     { q: "Who can chant the Gayatri Mantra?", a: "Traditionally the Gayatri was given to initiated boys at the Upanayana ceremony. In modern times, all Hindus — men, women, children — are encouraged to chant it. Many saints including Swami Vivekananda taught that it is for all humanity." },
     { q: "What is the significance of 24 syllables?", a: "The Gayatri Mantra has exactly 24 syllables, corresponding to the 24 hours of the day and the 24 letters of the Sanskrit alphabet, making it a complete prayer that encompasses all of time." },
   ],
-  relatedSlugs: ["mahamrityunjaya-mantra","shiv-chalisa","surya-chalisa","aditya-hridayam"],
+  relatedSlugs: ["mahamrityunjaya-mantra","shiv-chalisa"],
 };
 
 export default gayatriMantra;

@@ -47,7 +47,7 @@ const mahamrityunjayaMantra: ContentItem = {
     { q: "Can Mahamrityunjaya Mantra be chanted for a sick person?", a: "Yes. It is one of the most widely used mantras for healing. It can be chanted on behalf of a sick or suffering person by saying their name and gotra (lineage) before beginning the recitation." },
     { q: "What rosary (mala) should be used?", a: "Rudraksha mala (rosary of Rudraksha seeds) is the traditional choice for chanting Mahamrityunjaya Mantra, as Rudraksha is considered sacred to Lord Shiva." },
   ],
-  relatedSlugs: ["shiv-chalisa","shiv-aarti","shiv-tandav-stotram","rudrashtakam","om-namah-shivaya"],
+  relatedSlugs: ["shiv-chalisa","shiv-aarti","shiv-tandav-stotram"],
 };
 
 export default mahamrityunjayaMantra;

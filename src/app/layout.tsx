@@ -73,26 +73,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;600;700&family=Inter:wght@400;500;600;700;800&display=swap"
         />
 
-        {/* WebSite schema - enables Google sitelinks search box */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "WebSite",
-              name: "Shiv Chalisa",
-              url: "https://shivchalisa.org/",
-              description: "Read Shiv Chalisa, Hanuman Chalisa, Durga Aarti and other Hindu devotional texts with lyrics and meaning in Hindi, English and Sanskrit.",
-              potentialAction: {
-                "@type": "SearchAction",
-                target: "https://shivchalisa.org/search?q={search_term_string}",
-                "query-input": "required name=search_term_string",
-              },
-              inLanguage: ["hi", "en", "sa"],
-            }),
-          }}
-        />
-
         {/* Organization schema */}
         <script
           type="application/ld+json"
@@ -102,7 +82,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               "@type": "Organization",
               name: "Shiv Chalisa",
               url: "https://shivchalisa.org",
-              logo: "https://shivchalisa.org/favicon.svg",
+              logo: "https://shivchalisa.org/icon-512.png",
               description: "Shiv Chalisa - Read Shiv Chalisa, Hanuman Chalisa, Durga Aarti and other Hindu devotional texts with lyrics and meaning in Hindi, English and Sanskrit.",
               sameAs: [],
               contactPoint: {

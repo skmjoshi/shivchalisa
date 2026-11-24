@@ -315,12 +315,7 @@ const hanumanChalisa: ContentItem = {
       a: "Tuesday (Mangalvar) and Saturday (Shanivar) are the most auspicious days to recite Hanuman Chalisa.",
     },
   ],
-  relatedSlugs: [
-    "hanuman-aarti",
-    "bajrang-baan",
-    "sankat-mochan-hanuman-ashtak",
-    "ram-chalisa",
-  ],
+  relatedSlugs: ["hanuman-aarti"],
 };
 
 export default hanumanChalisa;

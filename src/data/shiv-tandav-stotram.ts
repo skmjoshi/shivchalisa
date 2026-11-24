@@ -109,7 +109,7 @@ const shivTandavStotram: ContentItem = {
     { q: "How many verses does Shiv Tandav Stotram have?", a: "Shiv Tandav Stotram has 11 main verses plus a concluding Phala Shruti (verse describing the fruit of recitation)." },
     { q: "What is the best time to recite Shiv Tandav Stotram?", a: "Brahma Muhurta (before dawn), Monday mornings, Pradosh Vrat, and Maha Shivratri are the most auspicious times to recite it." },
   ],
-  relatedSlugs: ["shiv-chalisa","shiv-aarti","mahamrityunjaya-mantra","rudrashtakam"],
+  relatedSlugs: ["shiv-chalisa","shiv-aarti","mahamrityunjaya-mantra"],
 };
 
 export default shivTandavStotram;

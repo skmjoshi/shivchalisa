@@ -52,7 +52,7 @@ const hanumanAarti: ContentItem = {
     { q: "When is Hanuman Aarti performed?", a: "Hanuman Aarti is traditionally performed after Hanuman Chalisa recitation, every Tuesday and Saturday, and on Hanuman Jayanti." },
     { q: "What is the significance of Hanuman Aarti?", a: "Performing Hanuman Aarti with devotion is believed to invoke his protection, remove all fears and obstacles, and bring courage and strength to the devotee." },
   ],
-  relatedSlugs: ["hanuman-chalisa","bajrang-baan","shiv-aarti","ganesh-aarti"],
+  relatedSlugs: ["hanuman-chalisa","shiv-aarti","ganesh-aarti"],
 };
 
 export default hanumanAarti;

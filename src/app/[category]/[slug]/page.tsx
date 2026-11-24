@@ -65,10 +65,12 @@ export default async function ContentRoute({ params }: Props) {
     "@type": "Article",
     headline:      item.metaTitle,
     description:   item.metaDescription,
+    image:         "https://shivchalisa.org/og-image.png",
     inLanguage:    hasSanskrit ? ["hi", "en", "sa"] : ["hi", "en"],
     author:    { "@type": "Organization", name: "Shiv Chalisa" },
     publisher: { "@type": "Organization", name: "Shiv Chalisa", url: "https://shivchalisa.org" },
-    datePublished: "2026-06-01",
+    datePublished: item.datePublished,
+    dateModified:  item.dateModified,
     mainEntityOfPage: `https://shivchalisa.org/${category}/${slug}`,
   };
 

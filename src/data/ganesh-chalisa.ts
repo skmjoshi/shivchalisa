@@ -176,11 +176,7 @@ const ganeshChalisa: ContentItem = {
       a: "Wednesday (Budhvar) is the day of Ganesha. It is also essential on Ganesh Chaturthi and before starting any important new work.",
     },
   ],
-  relatedSlugs: [
-    "ganesh-aarti",
-    "sankatnashan-ganesh-stotra",
-    "ganpati-atharvashirsha",
-  ],
+  relatedSlugs: ["ganesh-aarti"],
 };
 
 export default ganeshChalisa;

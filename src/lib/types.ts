@@ -19,6 +19,8 @@ export interface ContentItem {
   };
   metaTitle: string;      // Full SEO title tag
   metaDescription: string;
+  datePublished?: string; // ISO date from repository history
+  dateModified?: string;  // ISO date from repository history
   keywords: string[];
   intro: string;          // Opening paragraph shown under the title
   benefits: string[];
