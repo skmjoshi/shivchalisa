@@ -6,7 +6,7 @@ const shivTandavStotram: ContentItem = {
   deity: "shiva",
   title: { hindi: "शिव तांडव स्तोत्रम्", english: "Shiv Tandav Stotram" },
   metaTitle: "Shiv Tandav Stotram – शिव तांडव स्तोत्रम् Lyrics in Sanskrit & Hindi with Meaning",
-  metaDescription: "Read Shiv Tandav Stotram (शिव तांडव स्तोत्रम्) full lyrics in Sanskrit and Hindi with meaning. The most powerful Shiva hymn composed by Ravana.",
+  metaDescription: "Read Shiv Tandav Stotram (शिव तांडव स्तोत्रम्) lyrics in Sanskrit and Hindi with meaning. The most powerful Shiva hymn composed by Ravana.",
   keywords: ["shiv tandav stotram","shiv tandav","शिव तांडव स्तोत्रम्","shiv tandav lyrics","shiv tandav meaning","shiv tandav stotram in hindi","shiv tandav stotram sanskrit","ravana shiv stotram","shiv tandav audio"],
   intro: "Shiv Tandav Stotram (शिव तांडव स्तोत्रम्) is one of the most powerful and musically celebrated hymns in all of Sanskrit literature. It was composed by the learned Ravana — king of Lanka — while performing penance for Lord Shiva. The poem's thundering rhythm imitates the cosmic dance (Tandava) of Shiva himself.",
   benefits: [
@@ -23,7 +23,7 @@ const shivTandavStotram: ContentItem = {
       number: 1,
       sanskrit: "जटाटवीगलज्जलप्रवाहपावितस्थले\nगलेऽवलम्ब्य लम्बितां भुजङ्गतुङ्गमालिकाम्।\nडमड्डमड्डमड्डमन्निनादवड्डमर्वयं\nचकार चण्डताण्डवं तनोतु नः शिवः शिवम्॥",
       hindi: "जटाटवी गलज्जल प्रवाह पावित स्थले\nगले अवलम्ब्य लम्बितां भुजंगतुंग मालिकाम्।\nडमड्डमड्डमड्डमन्निनाद वड्डमर्वयं\nचकार चण्ड ताण्डवं तनोतु नः शिव: शिवम्॥",
-      english: "Jatatavigalajjalapravahapavitasthale\nGale'valambya lambitam bhujangatungamalikam.\nDamaḍ damaḍ damaḍ damannninadavaddamarvayam\nChakaara chandatandavam tanotu nah shivah shivam.",
+      english: "Jatatavigalajjalapravahapavitasthale\nGale'valambya lambitam bhujangatungamalikam.\nDamaḍ damaḍ damaḍ damanninadavaddamarvayam\nChakaara chandatandavam tanotu nah shivah shivam.",
       meaning: "His throat, hallowed by the flow of water streaming through the forest of his matted hair, on which hangs a huge serpent as a garland — to the sound of 'Damaḍ Damaḍ Damaḍ Damaḍ' of the Damaru drum — Shiva performed the fierce Tandava dance. May He grant us auspiciousness.",
     },
     {
@@ -56,7 +56,7 @@ const shivTandavStotram: ContentItem = {
     },
     {
       number: 6,
-      sanskrit: "ललाटचत्वरज्वलद्धनञ्जयस्फुलिङ्गभा\nnनिपीतपञ्चसायकं नमन्निलिम्पनायकम्।\nसुधामयूखलेखया विराजमानशेखरं\nमहाकपालिसम्पदेशिरोजटालमस्तु नः॥",
+      sanskrit: "ललाटचत्वरज्वलद्धनञ्जयस्फुलिङ्गभा\nनिपीतपञ्चसायकं नमन्निलिम्पनायकम्।\nसुधामयूखलेखया विराजमानशेखरं\nमहाकपालिसम्पदेशिरोजटालमस्तु नः॥",
       hindi: "ललाट चत्वर ज्वलद् धनंजय स्फुलिंगभा\nनिपीत पंचसायकं नमन्निलिम्प नायकम्।\nसुधामयूख लेखया विराजमान शेखरं\nमहाकपालि सम्पदे शिरो जटालमस्तु नः॥",
       english: "Lalata chatvara jvalad dhananjaya sphulingabha\nNipeeta panchashayakam namanni limpa naayakam.\nSudhamayukha lekhaya virajamana shekharam\nMahakapaali sampade shiro jataalamastunah.",
       meaning: "The sparks from the fire blazing in the courtyard of Shiva's forehead burned up Kamadeva (the five-arrowed one). The lord of the gods bows to him. May that Shiva — whose crown is adorned by rays of nectar-light from the crescent moon — grant us the wealth of the great skull-bearer.",
@@ -65,7 +65,7 @@ const shivTandavStotram: ContentItem = {
       number: 7,
       sanskrit: "करालभालपट्टिकाधगद्धगद्धगज्ज्वलद्\nधनञ्जयाहुतीकृतप्रचण्डपञ्चसायके।\nधराधरेन्द्रनन्दिनीकुचाग्रचित्रपत्रक\nप्रकल्पनैकशिल्पिनि त्रिलोचने रतिर्मम॥",
       hindi: "करालभाल पट्टिका धगद्धगद्धगज्ज्वलद्\nधनंजयाहुती कृत प्रचंड पंचसायके।\nधराधरेन्द्र नंदिनी कुचाग्र चित्रपत्रक\nप्रकल्पनैक शिल्पिनि त्रिलोचने रतिर्मम॥",
-      english: "Karalabhala pattika dhagad dhagad dhagajjvalad\nDhananjaya ahuti krita prachanda panchasayake.\nDharadharendra nandini kuchagra chitrapatraka\nPrakalpa naika shilpini trilokhane ratirmama.",
+      english: "Karalabhala pattika dhagad dhagad dhagajjvalad\nDhananjaya ahuti krita prachanda panchasayake.\nDharadharendra nandini kuchagra chitrapatraka\nPrakalpa naika shilpini trilochane ratirmama.",
       meaning: "From the terrifying fire blazing on Shiva's broad forehead — whose fire consumed the terrible five-arrowed Kama — who alone is the great artist painting the ornamental patterns on the chest of Parvati — in such three-eyed Shiva let my devotion ever rest.",
     },
     {
@@ -79,7 +79,7 @@ const shivTandavStotram: ContentItem = {
       number: 9,
       sanskrit: "प्रफुल्लनीलपङ्कजप्रपञ्चकालिमप्रभा\nवलम्बिकण्ठकन्दलीरुचिप्रबद्धकन्धरम्।\nस्मरच्छिदं पुरच्छिदं भवच्छिदं मखच्छिदं\nगजच्छिदान्धकच्छिदं तमन्तकच्छिदं भजे॥",
       hindi: "प्रफुल्ल नील पंकज प्रपंच कालिम प्रभा\nवलम्बि कण्ठ कन्दली रुचि प्रबद्ध कन्धरम्।\nस्मरच्छिदं पुरच्छिदं भवच्छिदं मखच्छिदं\nगजच्छिदान्धकच्छिदं तमन्तकच्छिदं भजे॥",
-      english: "Phraphulla neel pankaja prapancha kalima prabha\nValambi kantha kandali ruchi prabaddha kandahram.\nSmarachchhidam purachchhidam bhavachchhidam makhachchhidam\nGajachchhidam andhakachchhidam tam antakachchhidam bhaje.",
+      english: "Praphulla neel pankaja prapancha kalima prabha\nValambi kantha kandali ruchi prabaddha kandharam.\nSmarachchhidam purachchhidam bhavachchhidam makhachchhidam\nGajachchhidam andhakachchhidam tam antakachchhidam bhaje.",
       meaning: "I worship Shiva, whose neck shines with the dark blue lustre of a fully bloomed blue lotus — destroyer of Smara (Kamadeva), destroyer of Tripura (three demon cities), destroyer of worldly bondage, destroyer of Daksha's yajna, destroyer of the elephant-demon, destroyer of Andhaka, and destroyer of Yama (death).",
     },
     {
@@ -97,16 +97,16 @@ const shivTandavStotram: ContentItem = {
       meaning: "May Shiva be victorious — from whose terrifying forehead-fire emerges the breath of the great swaying serpents — who performs the fierce Tandava dance to the auspicious resounding thunder of the mridanga drum going 'Dhimid Dhimid Dhimid'.",
     },
     {
-      label: "॥ फलश्रुति (Phala Shruti) ॥",
+      number: 12,
       hindi: "दृषद्विचित्रतल्पयोर्भुजङ्गमौक्तिकस्रजोर्\nगरिष्ठरत्नलोष्ठयोः सुहृद्विपक्षपक्षयोः।\nतृणारविन्दचक्षुषोः प्रजामहीमहेन्द्रयोः\nसमं प्रवर्तयन्मनः कदा सदाशिवं भजे॥",
-      english: "Drishadivichitra talpayor bhujanga mauktika srajor\nGarishtha ratna loshthayoh suhrid vipaksha pakshayoh.\nTrinararvinda chakshushoh praja mahee mahendrayoh\nSamam pravartayan manah kada sadashivam bhaje.",
+      english: "Drishadvichitra talpayor bhujanga mauktika srajor\nGarishtha ratna loshthayoh suhrid vipaksha pakshayoh.\nTrinaaravinda chakshushoh praja mahee mahendrayoh\nSamam pravartayan manah kada sadashivam bhaje.",
       meaning: "When shall I worship Sadashiva with a mind that sees equally a soft bed and a stone floor, a serpent and a pearl necklace, a gem and a clod of earth, a friend and a foe, a blade of grass and a lotus eye — kings and common folk all as one?",
     },
   ],
   faqs: [
     { q: "Who wrote Shiv Tandav Stotram?", a: "Shiv Tandav Stotram was composed by Ravana — the mighty king of Lanka — who was also a great Shiva devotee and scholar. He composed it while performing intense penance for Lord Shiva." },
     { q: "What is the significance of Shiv Tandav Stotram?", a: "The poem describes Shiva's cosmic Tandava dance with extraordinary musical rhythm. The rolling Sanskrit sounds themselves create a meditative vibration that is said to invoke Shiva's presence." },
-    { q: "How many verses does Shiv Tandav Stotram have?", a: "Shiv Tandav Stotram has 11 main verses plus a concluding Phala Shruti (verse describing the fruit of recitation)." },
+    { q: "How many verses does Shiv Tandav Stotram have?", a: "The complete Shiv Tandav Stotram is generally counted as 16 verses (some editions add a closing benefit verse, making 17). This page presents the first 12 verses; the remaining verses are being checked against printed editions before they are added." },
     { q: "What is the best time to recite Shiv Tandav Stotram?", a: "Brahma Muhurta (before dawn), Monday mornings, Pradosh Vrat, and Maha Shivratri are the most auspicious times to recite it." },
   ],
   relatedSlugs: ["shiv-chalisa","shiv-aarti","mahamrityunjaya-mantra"],

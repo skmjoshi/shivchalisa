@@ -11,7 +11,7 @@ const shivChalisa: ContentItem = {
   metaTitle:
     "Shiv Chalisa – श्री शिव चालीसा Lyrics in Hindi & English with Meaning",
   metaDescription:
-    "Read Shiv Chalisa (शिव चालीसा) – full 40 verses in Hindi and English with word-by-word meaning and benefits. ॐ नमः शिवाय।",
+    "Read Shiv Chalisa (शिव चालीसा) – full 40 verses in Hindi and English with verse-by-verse meaning and benefits. ॐ नमः शिवाय।",
   keywords: [
     "shiv chalisa",
     "shiv chalisa lyrics",
@@ -207,16 +207,16 @@ const shivChalisa: ContentItem = {
       hindi:
         "कीन्हि दया तहँ करि सहाई।\nनीलकण्ठ तब नाम कहाई॥",
       english:
-        "Keehi Daya Tahan Kari Sahaai.\nNeelakantha Tab Naam Kahaai.",
+        "Keenhi Daya Tahan Kari Sahaai.\nNeelakantha Tab Naam Kahaai.",
       meaning:
         "You showed compassion and consumed the poison to protect creation. From that day, you became known as Neelakantha — the blue-throated one.",
     },
     {
       number: 19,
       hindi:
-        "पूजन रामचन्द्र जब कीना।\nजीत के लंक विभीषण दीना॥",
+        "पूजन रामचन्द्र जब कीन्हा।\nजीत के लंक विभीषण दीन्हा॥",
       english:
-        "Poojan Ramchandra Jab Keena.\nJeet Ke Lanka Vibheeshan Deena.",
+        "Poojan Ramchandra Jab Keenha.\nJeet Ke Lanka Vibheeshan Deenha.",
       meaning:
         "When Lord Ramachandra worshipped you, you blessed him; and after the victory, Lanka was given to Vibhishana.",
     },
@@ -225,21 +225,30 @@ const shivChalisa: ContentItem = {
       hindi:
         "सहस कमल में हो रहे धारी।\nकीन्ह परीक्षा तबहिं पुरारी॥",
       english:
-        "Sahas Kamal Men Ho Rahe Dhaari.\nKeenh Pareeksha Tabhein Puraari.",
+        "Sahas Kamal Men Ho Rahe Dhaari.\nKeenh Pareeksha Tabahin Puraari.",
       meaning:
         "When Ram was offering a thousand lotus flowers to you, you hid one to test his devotion.",
     },
     {
       number: 21,
       hindi:
-        "रामहिं निज चक्षु दे दीन्हा।\nहृदय पुलकित प्रभु अति कीन्हा॥",
+        "एक कमल प्रभु राखेउ जोई।\nकमल नयन पूजन चहँ सोई॥",
       english:
-        "Ramahi Nij Chaksh De Deenha.\nHriday Pulkit Prabhu Ati Keenha.",
+        "Ek Kamal Prabhu Raakheu Joee.\nKamal Nayan Poojan Chahan Soee.",
       meaning:
-        "Ram offered his own eye as the thousandth lotus. Deeply moved, Shiva blessed him with boundless joy.",
+        "The Lord kept one lotus aside, and the lotus-eyed Ram wished to complete his worship with that very flower.",
     },
     {
       number: 22,
+      hindi:
+        "कठिन भक्ति देखी प्रभु शंकर।\nभए प्रसन्न दिए इच्छित वर॥",
+      english:
+        "Kathin Bhakti Dekhi Prabhu Shankar.\nBhaye Prasann Diye Ichchhit Var.",
+      meaning:
+        "Seeing such difficult devotion, Lord Shankara was pleased and granted the boon that was desired.",
+    },
+    {
+      number: 23,
       hindi:
         "जय जय जय अनन्त अविनासी।\nकरत कृपा सब के घटवासी॥",
       english:
@@ -248,7 +257,7 @@ const shivChalisa: ContentItem = {
         "Victory, victory, victory to you — the eternal, the indestructible. You dwell in the hearts of all and bless everyone with your grace.",
     },
     {
-      number: 23,
+      number: 24,
       hindi:
         "दुष्ट सकल नित मोहि सतावैं।\nभ्रमत रहौं मोहि चैन न आवैं॥",
       english:
@@ -257,7 +266,7 @@ const shivChalisa: ContentItem = {
         "All manner of wickedness troubles me day and night. I wander restless and can find no peace.",
     },
     {
-      number: 24,
+      number: 25,
       hindi:
         "त्राहि त्राहि मैं नाथ पुकारों।\nयही अवसर मोहि आन उबारो॥",
       english:
@@ -266,157 +275,165 @@ const shivChalisa: ContentItem = {
         "Save me! Save me! O Lord, I cry out to you. This is the moment — please come and rescue me.",
     },
     {
-      number: 25,
-      hindi:
-        "लाज तुम्हारी तांत न दीजे।\nसंकट में मोहि आन न कीजे॥",
-      english:
-        "Laaj Tumhaari Tant Na Deeje.\nSankat Men Mohi Aan Na Keeje.",
-      meaning:
-        "Do not let your reputation as a protector be tarnished. Do not leave me alone in this crisis.",
-    },
-    {
       number: 26,
       hindi:
-        "खड़ेग विजय करे रघुनाथा।\nसत्य सत्य प्रभु कहत अनाथा॥",
+        "लै त्रिशूल शत्रुन को मारो।\nसंकट से मोहि आन उबारो॥",
       english:
-        "Khadeg Vijay Kare Raghunatha.\nSatya Satya Prabhu Kahat Anaatha.",
+        "Lai Trishool Shatrun Ko Maaro.\nSankat Se Mohi Aan Ubaaro.",
       meaning:
-        "Lord Raghunatha (Ram) won victory by the sword. Truth, truth — so says this helpless devotee, O Lord.",
+        "Take up your trident and strike down my enemies; come and rescue me from this trouble.",
     },
     {
       number: 27,
       hindi:
-        "कर त्रिशूल सोहत छवि भारी।\nकरत सदा शत्रुन क्षयकारी॥",
+        "मात-पिता भ्राता सब होई।\nसंकट में पूछत नहिं कोई॥",
       english:
-        "Kar Trishool Sohat Chhavi Bhaari.\nKarat Sada Shatrun Kshaykaari.",
+        "Maat-Pita Bhraata Sab Hoee.\nSankat Men Poochhat Nahin Koee.",
       meaning:
-        "The trident gleams magnificently in your hand — a force that ever destroys all enemies and evil.",
+        "Mother, father, brothers — everyone may be there, yet in times of trouble no one asks after you.",
     },
     {
       number: 28,
       hindi:
-        "मोको जगत ताप न सतावे।\nयह वर देउ ता नाम धरावे॥",
+        "स्वामी एक है आस तुम्हारी।\nआय हरहु मम संकट भारी॥",
       english:
-        "Moko Jagat Taap Na Sataave.\nYah Var Deu Ta Naam Dharaave.",
+        "Swaami Ek Hai Aas Tumhaari.\nAay Harahu Mam Sankat Bhaari.",
       meaning:
-        "Grant me this boon: that the pains of this world no longer torment me — and this name 'Shiv Chalisa' shall then glorify your name.",
+        "O Lord, my only hope is in you. Come and remove my heavy troubles.",
     },
     {
       number: 29,
       hindi:
-        "सुखी करे परिवार हमारा।\nसेवक स्तुति करे तुम्हारा॥",
+        "धन निर्धन को देत सदा हीं।\nजो कोई जांचे सो फल पाहीं॥",
       english:
-        "Sukhi Kare Parivaar Hamaara.\nSevak Stuti Kare Tumhaara.",
+        "Dhan Nirdhan Ko Det Sada Heen.\nJo Koee Jaanche So Phal Paaheen.",
       meaning:
-        "Make my family happy and prosperous. Your servant ever sings your praises.",
+        "You always give wealth to the poor; whoever pleads before you receives the fruit of their prayer.",
     },
     {
       number: 30,
       hindi:
-        "नाम नारायण में तुम जानो।\nयोग ध्यान में तुम पहिचानो॥",
+        "अस्तुति केहि विधि करैं तुम्हारी।\nक्षमहु नाथ अब चूक हमारी॥",
       english:
-        "Naam Naraayan Men Tum Jaano.\nYog Dhyan Men Tum Pahichaano.",
+        "Astuti Kehi Vidhi Karain Tumhaari.\nKshamahu Naath Ab Chook Hamaari.",
       meaning:
-        "In the name 'Narayana' you are known. In meditation and yoga, you are recognized in all forms.",
+        "In what way can we praise you rightly? Forgive our shortcomings, O Lord.",
     },
     {
       number: 31,
       hindi:
-        "ब्रह्मा विष्णु आदि देवताई।\nमुनि सनकादि सकल चतुराई॥",
+        "शंकर हो संकट के नाशन।\nमंगल कारण विघ्न विनाशन॥",
       english:
-        "Brahma Vishnu Aadi Devatai.\nMuni Sankaadi Sakal Chaturai.",
+        "Shankar Ho Sankat Ke Naashan.\nMangal Kaaran Vighna Vinaashan.",
       meaning:
-        "Brahma, Vishnu and all the gods — even the sage Sanaka and all the wise ones — sing your praises.",
+        "O Shankara, you destroy all troubles — the source of every blessing and the remover of obstacles.",
     },
     {
       number: 32,
       hindi:
-        "सुर किन्नर अरु असुर नर नाही।\nसब मिलि गावत बडे़ उछाही॥",
+        "योगी यति मुनि ध्यान लगावैं।\nशारद नारद शीश नवावैं॥",
       english:
-        "Sur Kinnar Aru Asur Nar Naahi.\nSab Mil Gaavat Bade Uchhaahi.",
+        "Yogi Yati Muni Dhyaan Lagaavain.\nShaarad Naarad Sheesh Navaavain.",
       meaning:
-        "Gods, Kinnaras, demons, humans — all together sing your glory with great joy.",
+        "Yogis, ascetics and sages fix their meditation on you; Sharada and Narada bow their heads before you.",
     },
     {
       number: 33,
       hindi:
-        "काहे न संकट निवारो स्वामी।\nकाहे न होहिं दुखी ग्रामी॥",
+        "नमो नमो जय नमः शिवाय।\nसुर ब्रह्मादिक पार न पाय॥",
       english:
-        "Kaahe Na Sankat Nivaaro Swaami.\nKaahe Na Hohin Dukhi Graami.",
+        "Namo Namo Jay Namah Shivaay.\nSur Brahmaadik Paar Na Paay.",
       meaning:
-        "O Lord, why not remove all obstacles? Why should your devotees suffer?",
+        "Salutations, salutations — victory to you, 'Namah Shivaya'! Even the gods led by Brahma cannot find your limit.",
     },
     {
       number: 34,
       hindi:
-        "यह संकट मम दूर हटाओ।\nमातु पिता मिलि मोहिं लखाओ॥",
+        "जो यह पाठ करे मन लाई।\nता पर होत है शम्भु सहाई॥",
       english:
-        "Yah Sankat Mam Door Hatao.\nMaatu Pita Mil Mohin Lakhaao.",
+        "Jo Yah Paath Kare Man Laaee.\nTa Par Hot Hai Shambhu Sahaaee.",
       meaning:
-        "Remove this crisis of mine. Show me the path — as mother and father both show the way.",
+        "Whoever recites this with a devoted mind receives the help of Shambhu (Shiva).",
     },
     {
       number: 35,
       hindi:
-        "चालीसा पाठ करे मन लाई।\nज्ञान धर्म इच्छाफल पाई॥",
+        "ऋनियां जो कोई हो अधिकारी।\nपाठ करे सो पावन हारी॥",
       english:
-        "Chaaleesa Paath Kare Man Laai.\nGyan Dharm Icchaaphal Paai.",
+        "Riniyaan Jo Koee Ho Adhikaari.\nPaath Kare So Paavan Haari.",
       meaning:
-        "One who recites this Chalisa with a focused mind gains knowledge, righteousness, and the fulfillment of all sincere desires.",
+        "The hymn says that even a person burdened with debt, if worthy, will find release by reciting it.",
     },
     {
       number: 36,
       hindi:
-        "विविध देव सब तव मिलि गावैं।\nपाठ करें तव भव भय जावैं॥",
+        "पुत्र होन कर इच्छा जोई।\nनिश्चय शिव प्रसाद तेहि होई॥",
       english:
-        "Vividh Dev Sab Tav Mil Gaaven.\nPaath Karen Tav Bhav Bhay Jaaven.",
+        "Putra Hon Kar Ichchha Joee.\nNishchay Shiv Prasaad Tehi Hoee.",
       meaning:
-        "All the various gods sing your praises together. One who recites this Chalisa is freed from the fear of worldly existence.",
+        "The hymn says that one who longs for a son will surely receive it by Shiva's grace.",
     },
     {
       number: 37,
       hindi:
-        "शम्भु अनाथ की सुनहु पुकारा।\nहो करुणानिधि हरहु विकारा॥",
+        "पण्डित त्रयोदशी को लावे।\nध्यान पूर्वक होम करावे॥",
       english:
-        "Shambhu Anath Ki Sunhu Pukaara.\nHo Karunaanidhi Harhu Vikaara.",
+        "Pandit Trayodashi Ko Laave.\nDhyaan Poorvak Hom Karaave.",
       meaning:
-        "O Shambhu, hear the cry of the helpless. O treasury of compassion, remove all impurities and suffering.",
+        "On Trayodashi (the thirteenth lunar day), invite a pandit and have a hom (fire offering) performed with full attention.",
     },
     {
       number: 38,
       hindi:
-        "करहुँ कृपा शंकर तव नाई।\nसिद्ध होवे काज सुखदाई॥",
+        "त्रयोदशी व्रत करै हमेशा।\nताके तन नहीं रहै कलेशा॥",
       english:
-        "Karahun Kripa Shankar Tav Naai.\nSiddh Hove Kaaj Sukhdaai.",
+        "Trayodashi Vrat Karai Hamesha.\nTaake Tan Nahin Rahai Kalesha.",
       meaning:
-        "Shower your grace, O Shankara, in your divine name. May all my undertakings succeed and bring happiness.",
+        "The hymn says that one who always keeps the Trayodashi fast will have no suffering in the body.",
     },
     {
       number: 39,
       hindi:
-        "निसि दिन ध्यान तुम्हारा जपते।\nपाप विनाश होत हैं कहते॥",
+        "धूप दीप नैवेद्य चढ़ावे।\nशंकर सम्मुख पाठ सुनावे॥",
       english:
-        "Nisi Din Dhyan Tumhara Japte.\nPaap Vinaash Hot Hain Kahte.",
+        "Dhoop Deep Naivedya Chadhaave.\nShankar Sammukh Paath Sunaave.",
       meaning:
-        "Those who meditate on you day and night — it is said that all their sins are destroyed.",
+        "Offer incense, a lamp and a food offering, and recite this hymn in front of Shankara.",
     },
     {
       number: 40,
       hindi:
-        "जो शिव चालीसा पढ़े हो भाई।\nसो निश्चय शिवलोक पाई॥",
+        "जन्म जन्म के पाप नसावे।\nअन्त धाम शिवपुर में पावे॥",
       english:
-        "Jo Shiv Chaaleesa Padhe Ho Bhaai.\nSo Nishchay Shivlok Paai.",
+        "Janm Janm Ke Paap Nasaave.\nAnt Dhaam Shivpur Men Paave.",
       meaning:
-        "O brother, whoever reads this Shiv Chalisa — they shall surely attain Shivaloka (Shiva's divine realm).",
+        "It destroys the sins of birth after birth, and at the end one reaches the abode of Shiva.",
+    },
+    {
+      hindi:
+        "कहैं अयोध्यादास आस तुम्हारी।\nजानि सकल दुःख हरहु हमारी॥",
+      english:
+        "Kahain Ayodhyadas Aas Tumhaari.\nJaani Sakal Dukh Harahu Hamaari.",
+      meaning:
+        "Ayodhyadas says: my hope is in you; knowing all my sorrows, please take them away.",
     },
     {
       label: "॥ दोहा ॥",
       hindi:
-        "श्री शिव स्तुति जो गावही जीवन मुक्त हो जाय।\nजन्म जन्म पाप तासु बल कटि जाय॥",
+        "नित्त नेम उठि प्रातः ही, पाठ करो चालीसा।\nतुम मेरी मनोकामना, पूर्ण करो जगदीश॥",
       english:
-        "Shri Shiv Stuti Jo Gaavahi Jeevan Mukt Ho Jaay.\nJanm Janm Paap Taasu Bal Kati Jaay.",
+        "Nitt Nem Uthi Praatah Hee, Paath Karo Chaaleesa.\nTum Meri Manokaamana, Poorn Karo Jagdeesh.",
       meaning:
-        "One who sings this prayer of Shri Shiva becomes liberated in this very life. The sins of countless births are cut away by the power of this praise.",
+        "Rising early each morning, I will recite this Chalisa as a daily discipline. O Lord of the universe, please fulfil my heart's wishes.",
+    },
+    {
+      label: "॥ दोहा ॥",
+      hindi:
+        "मगसर छठि हेमन्त ऋतु, संवत चौसठ जान।\nअस्तुति चालीसा शिवहि, पूर्ण कीन कल्याण॥",
+      english:
+        "Magsar Chhathi Hemant Ritu, Samvat Chausath Jaan.\nAstuti Chaaleesa Shivahi, Poorn Keen Kalyaan.",
+      meaning:
+        "In the winter (Hemant) season, on the sixth day of the month of Margashirsha, in the year sixty-four (Samvat) as the text states, this Chalisa in praise of Shiva was completed for the welfare of all.",
     },
   ],
   faqs: [
