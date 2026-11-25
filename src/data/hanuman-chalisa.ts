@@ -113,7 +113,7 @@ const hanumanChalisa: ContentItem = {
     {
       number: 11,
       hindi: "लाय सजीवन लखन जियाये।\nश्री रघुबीर हरषि उर लाये॥",
-      english: "Laay Sajeevan Lakhan Jiyaaye.\nShri Raghubaar Harshi Ur Laaye.",
+      english: "Laay Sajeevan Lakhan Jiyaaye.\nShri Raghubir Harshi Ur Laaye.",
       meaning: "You brought the Sanjeevani herb and revived Lakshman. Shri Raghubir (Ram) embraced you joyfully.",
     },
     {
@@ -239,7 +239,7 @@ const hanumanChalisa: ContentItem = {
     {
       number: 32,
       hindi: "राम रसायन तुम्हरे पासा।\nसदा रहो रघुपति के दासा॥",
-      english: "Ram Rasaayan Tumhare Paasa.\nSada Raho Raghuati Ke Daasa.",
+      english: "Ram Rasaayan Tumhare Paasa.\nSada Raho Raghupati Ke Daasa.",
       meaning: "You hold the elixir of Ram's name. May you forever remain the servant of Raghupati.",
     },
     {
@@ -293,7 +293,7 @@ const hanumanChalisa: ContentItem = {
     {
       label: "॥ दोहा ॥",
       hindi: "पवनतनय संकट हरण, मंगल मूरति रूप।\nराम लखन सीता सहित, हृदय बसहु सुरभूप॥",
-      english: "Pavantanay Sankat Haran, Mangal Moorati Roop.\nRam Lakhan Sita Sahit, Hriday Bashu Surabhoop.",
+      english: "Pavantanay Sankat Haran, Mangal Moorati Roop.\nRam Lakhan Sita Sahit, Hriday Basahu Surabhoop.",
       meaning: "O son of the Wind, remover of all crises, embodiment of auspiciousness — along with Ram, Lakshman and Sita, please reside in my heart, O king of the gods.",
     },
   ],

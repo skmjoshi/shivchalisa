@@ -27,7 +27,7 @@ const ganeshAarti: ContentItem = {
       label: "॥ पद 1 ॥",
       hindi: "एकदन्त दयावन्त, चार भुजाधारी।\nमाथे सिन्दूर सोहे, मूसे की सवारी॥\nजय गणेश देवा॥",
       english: "Ekdant Dayaavant, Chaar Bhujaadhaari.\nMaathe Sindoor Sohe, Moose Ki Savaari.\nJay Ganesh Deva.",
-      meaning: "One-tusked, compassionate, with four arms — sindhoor gleams on your forehead and a mouse is your mount.",
+      meaning: "One-tusked, compassionate, with four arms — sindoor gleams on your forehead and a mouse is your mount.",
     },
     {
       label: "॥ पद 2 ॥",
@@ -45,7 +45,7 @@ const ganeshAarti: ContentItem = {
       label: "॥ पद 4 ॥",
       hindi: "'सूर' श्याम शरण आए, सफल कीजे सेवा।\nमाता जाकी पार्वती, पिता महादेवा॥\nजय गणेश देवा॥",
       english: "'Soor' Shyam Sharan Aaye, Saphal Keeje Seva.\nMaata Jaaki Paarvati, Pitaa Mahadeva.\nJay Ganesh Deva.",
-      meaning: "Surdas says: I have come to your shelter, O Shyam-like Ganesha — make my service fruitful. Your mother is Parvati, your father is Mahadeva.",
+      meaning: "Surdas (Sur Shyam) says: I have come to your shelter — make my service fruitful. Your mother is Parvati, your father is Mahadeva.",
     },
   ],
   faqs: [

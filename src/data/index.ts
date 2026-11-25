@@ -25,18 +25,18 @@ import gayatriMantra         from "./gayatri-mantra";
 // published in the initial content commit and last changed before this SEO pass.
 const CONTENT_DATES: Record<string, Pick<ContentItem, "datePublished" | "dateModified">> = {
   "shiv-chalisa":          { datePublished: "2026-07-22", dateModified: "2026-11-24" },
-  "hanuman-chalisa":       { datePublished: "2026-07-22", dateModified: "2026-07-29" },
+  "hanuman-chalisa":       { datePublished: "2026-07-22", dateModified: "2026-11-25" },
   "ganesh-chalisa":        { datePublished: "2026-07-22", dateModified: "2026-11-24" },
   "durga-chalisa":         { datePublished: "2026-07-22", dateModified: "2026-11-24" },
-  "shiv-aarti":            { datePublished: "2026-07-22", dateModified: "2026-07-29" },
-  "hanuman-aarti":         { datePublished: "2026-07-22", dateModified: "2026-07-29" },
-  "ganesh-aarti":          { datePublished: "2026-07-22", dateModified: "2026-07-29" },
-  "durga-aarti":           { datePublished: "2026-07-22", dateModified: "2026-07-29" },
+  "shiv-aarti":            { datePublished: "2026-07-22", dateModified: "2026-11-25" },
+  "hanuman-aarti":         { datePublished: "2026-07-22", dateModified: "2026-11-25" },
+  "ganesh-aarti":          { datePublished: "2026-07-22", dateModified: "2026-11-25" },
+  "durga-aarti":           { datePublished: "2026-07-22", dateModified: "2026-11-25" },
   "lakshmi-aarti":         { datePublished: "2026-07-22", dateModified: "2026-07-29" },
-  "vishnu-aarti":          { datePublished: "2026-07-22", dateModified: "2026-07-29" },
+  "vishnu-aarti":          { datePublished: "2026-07-22", dateModified: "2026-11-25" },
   "shiv-tandav-stotram":   { datePublished: "2026-07-22", dateModified: "2026-11-24" },
-  "mahamrityunjaya-mantra": { datePublished: "2026-07-22", dateModified: "2026-07-29" },
-  "gayatri-mantra":        { datePublished: "2026-07-22", dateModified: "2026-07-29" },
+  "mahamrityunjaya-mantra": { datePublished: "2026-07-22", dateModified: "2026-11-25" },
+  "gayatri-mantra":        { datePublished: "2026-07-22", dateModified: "2026-11-25" },
 };
 
 // ── Master registry ───────────────────────────────────────────

@@ -72,10 +72,28 @@ const durgaAarti: ContentItem = {
       meaning: "The 64 Yoginis sing your auspicious praises while Bhairava dances. Tablas, mridangas and damrus all play in your honour.",
     },
     {
+      label: "॥ पद 9 ॥",
+      hindi: "तुम ही जग की माता, तुम ही हो भरता।\nभक्तन की दुख हरता, सुख सम्पत्ति करता॥\nजय अम्बे गौरी॥",
+      english: "Tum Hi Jag Ki Maata, Tum Hi Ho Bhartaa.\nBhaktan Ki Dukh Hartaa, Sukh Sampatti Kartaa.\nJay Ambe Gauri.",
+      meaning: "You alone are the mother and sustainer of the world. You remove the sorrow of devotees and bestow happiness and prosperity.",
+    },
+    {
+      label: "॥ पद 10 ॥",
+      hindi: "भुजा चार अति शोभित, वर-मुद्रा धारी।\nमनवान्छित फल पावत, सेवत नर-नारी॥\nजय अम्बे गौरी॥",
+      english: "Bhuja Chaar Ati Shobhit, Var-Mudra Dhaari.\nManvaanchhit Phal Paavat, Sevat Nar-Naari.\nJay Ambe Gauri.",
+      meaning: "Your four arms shine magnificently, bearing the gesture of granting boons. Men and women who serve you attain their heart's desired fruits.",
+    },
+    {
+      label: "॥ पद 11 ॥",
+      hindi: "कंचन थाल विराजत, अगर कपूर बाती।\nश्रीमालकेतु में राजत, कोटि रतन ज्योति॥\nजय अम्बे गौरी॥",
+      english: "Kanchan Thaal Viraajat, Agar Kapoor Baati.\nShreemaalketu Mein Raajat, Koti Ratan Jyoti.\nJay Ambe Gauri.",
+      meaning: "A golden platter shines with agarwood and camphor wicks. At Shreemalketu, your radiance glows like the light of crores of jewels.",
+    },
+    {
       label: "॥ आरती फल ॥",
-      hindi: "तुम हो जग की माता, तुम ही हो भरता।\nभक्तन की दुख हरता, सुख सम्पत्ति करता॥\nजो भी तुम्हें ध्यावे, फल चार पावे।\nदुख विनशे मन का, आनन्द मन पावे॥\nजय अम्बे गौरी॥",
-      english: "Tum Ho Jag Ki Maata, Tum Hi Ho Bharata.\nBhaktan Ki Dukh Harata, Sukh Sampati Karata.\nJo Bhi Tumhe Dhyaave, Phal Chaar Paave.\nDukh Vinashe Man Ka, Aanand Man Paave.\nJay Ambe Gauri.",
-      meaning: "You are the mother and sustainer of the world. You remove the sorrow of devotees and bestow happiness and wealth. Whoever meditates on you attains all four fruits of life — and the sorrow in their heart dissolves into bliss.",
+      hindi: "श्री अम्बेजी की आरती, जो कोई नर गावै।\nकहत शिवानन्द स्वामी, सुख सम्पत्ति पावै॥\nजय अम्बे गौरी॥",
+      english: "Shri Ambeji Ki Aarti, Jo Koi Nar Gaavai.\nKahat Shivaanand Swami, Sukh Sampatti Paavai.\nJay Ambe Gauri.",
+      meaning: "Says Shivanand Swami: whoever sings this Aarti of Shri Ambeji attains happiness and prosperity.",
     },
   ],
   faqs: [

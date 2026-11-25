@@ -12,12 +12,12 @@ const mahamrityunjayaMantra: ContentItem = {
   benefits: [
     "Believed to protect against untimely death and serious illness.",
     "Recited 108 times daily for health, healing and longevity.",
-    "Chanted by doctors and hospitals in traditional healing rituals.",
+    "Widely chanted in traditional Hindu prayers for recovery and wellbeing.",
     "Liberates the soul from the fear of death and worldly bondage.",
     "Grants inner peace, strength and fearlessness.",
     "Recommended during illness, surgery, or any life-threatening situation.",
   ],
-  howToChant: "Sit in a clean, quiet place. Face east or north. Use a Rudraksha mala (rosary) to count 108 repetitions. Begin with 'Om' and end with 'Swaha'. Best recited at Brahma Muhurta (4-6 AM). Can be chanted any number of times — 11, 21, 51, 108 per session.",
+  howToChant: "Sit in a clean, quiet place. Face east or north. Use a Rudraksha mala (rosary) to count 108 repetitions. Begin with 'Om' and recite the full verse cleanly. Best recited at Brahma Muhurta (4–6 AM). Can be chanted any number of times — 11, 21, 51, or 108 per session.",
   bestTime: "Brahma Muhurta (4–6 AM daily), Monday, Maha Shivratri, during illness or crisis",
   verses: [
     {
@@ -30,7 +30,7 @@ const mahamrityunjayaMantra: ContentItem = {
     {
       label: "॥ विस्तृत अर्थ (Word by Word) ॥",
       hindi: "ॐ = परमात्मा का प्रणव नाम\nत्र्यम्बकं = तीन नेत्रों वाले (त्रि + अम्बक)\nयजामहे = हम पूजा करते हैं\nसुगन्धिं = सुगंधित, दिव्य सुवास वाले\nपुष्टिवर्धनम् = जो सभी का पोषण बढ़ाते हैं\nउर्वारुकमिव = जैसे ककड़ी (अपनी डाल से)\nबन्धनात् = बंधन से\nमृत्योः = मृत्यु से\nमुक्षीय = मुक्त करें\nमा = मत\nअमृतात् = अमृत (मोक्ष) से",
-      english: "Om = the sacred primordial sound\nTryambakam = three-eyed (Shiva)\nYajamahe = we worship\nSugandhim = fragrant / of divine essence\nPushtivardhanam = nourisher of all\nUrvarukamiva = like a cucumber\nBandhanaan = from its bondage (to the vine)\nMrityoh = from death\nMuksheeya = liberate us\nMaa = not\nAmritaat = from immortality / liberation",
+      english: "Om = the sacred primordial sound\nTryambakam = three-eyed (Shiva)\nYajamahe = we worship\nSugandhim = fragrant / of divine essence\nPushtivardhanam = nourisher of all\nUrvarukamiva = like a cucumber\nBandhanaat = from its bondage (to the vine)\nMrityoh = from death\nMuksheeya = liberate us\nMaa = not\nAmritaat = from immortality / liberation",
       meaning: "Broken down word by word: We worship the three-eyed Shiva who is of divine fragrance and nourishes all life. Just as a ripe cucumber falls naturally from the vine — free it from bondage — may you liberate us from death, but not from immortality.",
     },
     {

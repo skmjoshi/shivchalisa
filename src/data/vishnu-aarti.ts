@@ -8,7 +8,7 @@ const vishnuAarti: ContentItem = {
   metaTitle: "Vishnu Aarti – ॐ जय जगदीश हरे Lyrics in Hindi & English with Meaning",
   metaDescription: "Read Vishnu Aarti (ॐ जय जगदीश हरे) full lyrics in Hindi and English with meaning. The most widely sung Aarti in Hindu homes.",
   keywords: ["vishnu aarti","om jai jagdish hare","jai jagdish hare","om jai jagdish hare lyrics","विष्णु आरती","jagdish aarti","hari aarti","vishnu aarti in hindi","om jai jagdish hare meaning"],
-  intro: "Vishnu Aarti — 'ॐ जय जगदीश हरे' — is the single most widely sung Aarti in Hindu households across India. Composed by Pandit Shardaram Bhaktmal in 1870, it is performed in virtually every Hindu home during the evening puja. Its simple, universal melody makes it accessible to devotees of all ages.",
+  intro: "Vishnu Aarti — 'ॐ जय जगदीश हरे' — is the single most widely sung Aarti in Hindu households across India. Composed by Pandit Shardha Ram Phillauri in 1870, it is performed in virtually every Hindu home during the evening puja. Its simple, universal melody makes it accessible to devotees of all ages.",
   benefits: [
     "The most universal daily puja Aarti — sung in every Hindu household.",
     "Removes sins and fills the heart with peace and devotion.",
@@ -67,7 +67,7 @@ const vishnuAarti: ContentItem = {
     },
   ],
   faqs: [
-    { q: "Who composed Om Jai Jagdish Hare?", a: "Om Jai Jagdish Hare was composed by Pandit Shardaram Bhaktmal in 1870 in Punjabi. It quickly spread across all of India and became the most universally sung Aarti." },
+    { q: "Who composed Om Jai Jagdish Hare?", a: "Om Jai Jagdish Hare was composed by Pandit Shardha Ram Phillauri around 1870 in Hindi. It quickly spread across India and became one of the most universally sung Aartis." },
     { q: "When is Vishnu Aarti performed?", a: "It is performed during the evening puja (Sandhya Aarti) daily in most Hindu homes. It is especially significant on Ekadashi (11th day of lunar fortnight) and Thursdays." },
   ],
   relatedSlugs: ["lakshmi-aarti","ganesh-aarti","shiv-aarti"],

@@ -96,7 +96,7 @@ export default function HomePage() {
         </h1>
         <p className="text-base md:text-lg max-w-xl mx-auto mb-6" style={{ color: "var(--muted)" }}>
           Chalisa · Aarti · Stotra · Mantra in Hindi, English &amp; Sanskrit
-          with word-by-word meaning
+          with verse-by-verse meaning
         </p>
 
         {/* Popular devotional text shortcuts */}

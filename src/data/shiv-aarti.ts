@@ -11,7 +11,7 @@ const shivAarti: ContentItem = {
   metaTitle:
     "Shiv Aarti – ॐ जय शिव ओंकारा Lyrics in Hindi & English with Meaning",
   metaDescription:
-    "Read Shiv Aarti (ॐ जय शिव ओंकारा) full lyrics in Hindi and English with meaning. The most popular Shiva Aarti sung in temples across India.",
+    "Read Shiv Aarti (ॐ जय शिव ओंकारा) lyrics in Hindi and English with meaning. The most popular Shiva Aarti sung in temples across India.",
   keywords: [
     "shiv aarti",
     "om jai shiv omkara",
@@ -42,12 +42,12 @@ const shivAarti: ContentItem = {
       label: "॥ पद 1 ॥",
       hindi: "एकानन चतुरानन पंचानन राजे।\nहंसासन गरुड़ासन वृषवाहन साजे॥\nॐ जय शिव ओंकारा॥",
       english: "Ekaanan Chaturaanan Panchaanan Raaje.\nHansaasan Garudaasan Vrushavaahan Saaje.\nOm Jay Shiv Onkara.",
-      meaning: "You are worshipped with one face (as Shiva), four faces (as Brahma) and five faces (as Panchamukha Shiva). You are seated on the swan, the eagle, and the bull respectively.",
+      meaning: "You shine with one face (as Vishnu), four faces (as Brahma), and five faces (as Panchamukha Shiva) — seated respectively on the eagle (Garuda), the swan (Hamsa), and the bull (Nandi).",
     },
     {
       label: "॥ पद 2 ॥",
       hindi: "दो भुज चार चतुर्भुज दस भुज अति सोहे।\nत्रिगुण रूप निरखते त्रिभुवन जन मोहे॥\nॐ जय शिव ओंकारा॥",
-      english: "Do Bhuj Chaar Chaturbhuj Das Bhuj Ati Sohe.\nTrigun Roop Nirkhte Tribhuvan Jan Mohe.\nOm Jay Shiv Onkara.",
+      english: "Do Bhuj Chaar Chaturbhuj Das Bhuj Ati Sohe.\nTrigun Roop Nirakhte Tribhuvan Jan Mohe.\nOm Jay Shiv Onkara.",
       meaning: "You are beautiful with two, four, or ten arms. Your three-natured form (the three gunas) enchants the beings of all three worlds.",
     },
     {
@@ -65,7 +65,7 @@ const shivAarti: ContentItem = {
     {
       label: "॥ पद 5 ॥",
       hindi: "कर मध्ये कमण्डलु चक्र त्रिशूलधारी।\nसुखकारी दुखहारी जगपालनकारी॥\nॐ जय शिव ओंकारा॥",
-      english: "Kar Madhye Kamandalu Chakra Trishooldhaari.\nSukhkaari Dukhaari Jagpaalanakaari.\nOm Jay Shiv Onkara.",
+      english: "Kar Madhye Kamandalu Chakra Trishooldhaari.\nSukhkaari Dukhaari Jagpaalankaari.\nOm Jay Shiv Onkara.",
       meaning: "You hold a water-pot, discus and trident in your hands. You are the giver of joy, the remover of sorrow, and the sustainer of the entire universe.",
     },
     {
